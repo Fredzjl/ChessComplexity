@@ -1,0 +1,66 @@
+{
+  "experiment_name": "rank_bucket_comparison_100_games",
+  "min_player_elo": 1000,
+  "elo_bucket_width": 100,
+  "scoped_position_count": 3131,
+  "slices": {
+    "all_eligible": {
+      "label": "All eligible positions",
+      "maia": {
+        "position_count": 3131,
+        "covered_positions": 3097,
+        "coverage": 0.9891,
+        "mean_rank": 2.7172,
+        "mean_rank_found_only": 2.7172,
+        "mean_rank_topk_clipped": 2.7172,
+        "hit_at_1": 0.4986,
+        "hit_at_3": 0.7815,
+        "hit_at_5": 0.8802,
+        "topk_size": null
+      },
+      "stockfish": {
+        "position_count": 3131,
+        "covered_positions": 2964,
+        "coverage": 0.9467,
+        "mean_rank": 5.0422,
+        "mean_rank_found_only": 4.1465,
+        "mean_rank_topk_clipped": 5.0422,
+        "hit_at_1": 0.3647,
+        "hit_at_3": 0.6238,
+        "hit_at_5": 0.7253,
+        "topk_size": 20
+      }
+    },
+    "high_complexity": {
+      "label": "High-complexity positions",
+      "maia": {
+        "position_count": 2564,
+        "covered_positions": 2564,
+        "coverage": 1.0,
+        "mean_rank": 2.8491,
+        "mean_rank_found_only": 2.8491,
+        "mean_rank_topk_clipped": 2.8491,
+        "hit_at_1": 0.4614,
+        "hit_at_3": 0.775,
+        "hit_at_5": 0.8838,
+        "topk_size": null
+      },
+      "stockfish": {
+        "position_count": 2564,
+        "covered_positions": 2413,
+        "coverage": 0.9411,
+        "mean_rank": 5.4154,
+        "mean_rank_found_only": 4.4441,
+        "mean_rank_topk_clipped": 5.4154,
+        "hit_at_1": 0.3155,
+        "hit_at_3": 0.5897,
+        "hit_at_5": 0.6993,
+        "topk_size": 20
+      }
+    }
+  },
+  "stockfish": {
+    "movetime_ms": 120,
+    "multipv": 20
+  }
+}

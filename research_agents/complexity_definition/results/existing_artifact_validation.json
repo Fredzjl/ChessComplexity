@@ -1,0 +1,122 @@
+{
+  "bundle_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/sites/20260509_balanced_100_games/site/data/site_bundle.json",
+  "bundle_summary": {
+    "position_count": 3279,
+    "high_complexity_count": 2679,
+    "non_high_complexity_count": 600,
+    "time_budget_available_count": 1800,
+    "realizability_available_count": 2679
+  },
+  "rank_summary": {
+    "all": {
+      "maia": {
+        "total_positions": 3279,
+        "coverage_count": 3214,
+        "coverage_rate": 0.9802,
+        "mean_rank": 2.8367,
+        "median_rank": 2.0,
+        "hit_at_1": 0.488,
+        "hit_at_3": 0.7685,
+        "hit_at_5": 0.8664
+      },
+      "stockfish": {
+        "total_positions": 3279,
+        "coverage_count": 3071,
+        "coverage_rate": 0.9366,
+        "mean_rank": 4.1934,
+        "median_rank": 2.0,
+        "hit_at_1": 0.359,
+        "hit_at_3": 0.6124,
+        "hit_at_5": 0.7118
+      }
+    },
+    "high_complexity": {
+      "maia": {
+        "total_positions": 2679,
+        "coverage_count": 2663,
+        "coverage_rate": 0.994,
+        "mean_rank": 2.9527,
+        "median_rank": 2.0,
+        "hit_at_1": 0.4524,
+        "hit_at_3": 0.7648,
+        "hit_at_5": 0.8731
+      },
+      "stockfish": {
+        "total_positions": 2679,
+        "coverage_count": 2504,
+        "coverage_rate": 0.9347,
+        "mean_rank": 4.4904,
+        "median_rank": 2.0,
+        "hit_at_1": 0.3124,
+        "hit_at_3": 0.5808,
+        "hit_at_5": 0.6883
+      }
+    },
+    "non_high_complexity": {
+      "maia": {
+        "total_positions": 600,
+        "coverage_count": 551,
+        "coverage_rate": 0.9183,
+        "mean_rank": 2.2759,
+        "median_rank": 1.0,
+        "hit_at_1": 0.6467,
+        "hit_at_3": 0.785,
+        "hit_at_5": 0.8367
+      },
+      "stockfish": {
+        "total_positions": 600,
+        "coverage_count": 567,
+        "coverage_rate": 0.945,
+        "mean_rank": 2.8818,
+        "median_rank": 1.0,
+        "hit_at_1": 0.5667,
+        "hit_at_3": 0.7533,
+        "hit_at_5": 0.8167
+      }
+    },
+    "gaps": {
+      "maia_mean_rank_high_minus_nonhigh": 0.6768,
+      "stockfish_mean_rank_high_minus_nonhigh": 1.6086
+    }
+  },
+  "time_budget_summary": {
+    "eligible_complex_positions_with_time_budget": 1800,
+    "mean_best_move_switch_count": 1.5561,
+    "switch_rate_ge_1": 0.65,
+    "switch_rate_ge_2": 0.4722,
+    "mean_best_score_range_cp": 61.8747,
+    "corr_complexity_vs_switch_count": 0.0831,
+    "corr_complexity_vs_score_range_cp": -0.0553
+  },
+  "engine_best_maia_reluctance_summary": {
+    "all": {
+      "slice": "all",
+      "strong_engine_positions": 671,
+      "flagged_reluctant_positions": 195,
+      "flagged_rate_within_strong": 0.2906,
+      "human_played_anyway_count": 12,
+      "human_played_anyway_rate_within_flagged": 0.0615
+    },
+    "high_complexity": {
+      "slice": "high_complexity",
+      "strong_engine_positions": 531,
+      "flagged_reluctant_positions": 165,
+      "flagged_rate_within_strong": 0.3107,
+      "human_played_anyway_count": 7,
+      "human_played_anyway_rate_within_flagged": 0.0424
+    },
+    "non_high_complexity": {
+      "slice": "non_high_complexity",
+      "strong_engine_positions": 140,
+      "flagged_reluctant_positions": 30,
+      "flagged_rate_within_strong": 0.2143,
+      "human_played_anyway_count": 5,
+      "human_played_anyway_rate_within_flagged": 0.1667
+    }
+  },
+  "notes": [
+    "Stockfish rank metrics are limited to the top-20 root analysis saved in the site bundle.",
+    "Time-budget metrics are computed on positions with time-budget traces in the existing overnight complex-position sweep.",
+    "This script only uses already-saved artifacts and does not rerun Maia or Stockfish."
+  ]
+}

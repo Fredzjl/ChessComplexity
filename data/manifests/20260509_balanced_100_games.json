@@ -1,0 +1,214 @@
+{
+  "source_url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+  "archive_output": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/data/raw/20260509_balanced_100_games.partial.pgn.zst",
+  "raw_output": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/data/raw/20260509_balanced_100_games.pgn",
+  "target_games": 100,
+  "downloaded_bytes": 33554432,
+  "byte_range": "0-33554431",
+  "archive_sha256": "8191435e5dd2089fd821d568e972bcfb5644c16486996b33459196b8496d2106",
+  "raw_sha256": "a8c4b208c028c996bdc961e76c24af9e96f2a623fcc8250b1a8eedd64ca4364d",
+  "extraction_timestamp_utc": "2026-05-09T19:23:21.724796+00:00",
+  "sampling_mode": "avg_elo_spread",
+  "candidate_games_requested": 1200,
+  "candidate_games_extracted": 1200,
+  "candidate_elo_summary": {
+    "count_with_average_elo": 1200,
+    "min_average_elo": 523.5,
+    "max_average_elo": 2809.5,
+    "mean_average_elo": 1639.4,
+    "bucket_count": 10,
+    "buckets": [
+      {
+        "label": "523-751",
+        "count": 14
+      },
+      {
+        "label": "752-980",
+        "count": 48
+      },
+      {
+        "label": "981-1209",
+        "count": 121
+      },
+      {
+        "label": "1210-1438",
+        "count": 188
+      },
+      {
+        "label": "1439-1667",
+        "count": 245
+      },
+      {
+        "label": "1668-1896",
+        "count": 271
+      },
+      {
+        "label": "1897-2125",
+        "count": 195
+      },
+      {
+        "label": "2126-2354",
+        "count": 85
+      },
+      {
+        "label": "2355-2583",
+        "count": 23
+      },
+      {
+        "label": "2584-2809",
+        "count": 10
+      }
+    ]
+  },
+  "selected_elo_summary": {
+    "count_with_average_elo": 100,
+    "min_average_elo": 523.5,
+    "max_average_elo": 2809.5,
+    "mean_average_elo": 1640.05,
+    "bucket_count": 10,
+    "buckets": [
+      {
+        "label": "523-751",
+        "count": 2
+      },
+      {
+        "label": "752-980",
+        "count": 4
+      },
+      {
+        "label": "981-1209",
+        "count": 10
+      },
+      {
+        "label": "1210-1438",
+        "count": 15
+      },
+      {
+        "label": "1439-1667",
+        "count": 20
+      },
+      {
+        "label": "1668-1896",
+        "count": 23
+      },
+      {
+        "label": "1897-2125",
+        "count": 16
+      },
+      {
+        "label": "2126-2354",
+        "count": 7
+      },
+      {
+        "label": "2355-2583",
+        "count": 2
+      },
+      {
+        "label": "2584-2809",
+        "count": 1
+      }
+    ]
+  },
+  "game_ids": [
+    "FaVGVd6v",
+    "cARsBeta",
+    "h9Pz2Xue",
+    "X5WAjlVb",
+    "pbdc5OCv",
+    "yMmTCp4q",
+    "EaxPgpbL",
+    "tNNQEMVj",
+    "NMpl1Q91",
+    "55UlGeb9",
+    "TR3LdU0X",
+    "oka1HHo3",
+    "smsBfSdW",
+    "OFUgj2iX",
+    "eFTG0E89",
+    "8iVKEZoO",
+    "119kM9Xj",
+    "4hP4UqNB",
+    "tiUoqkJo",
+    "rPff1hDs",
+    "hi4UI0KC",
+    "78cIwkOb",
+    "hMI5kmr4",
+    "IshC5SvL",
+    "rB9nsFce",
+    "rRLPWs6W",
+    "7vZtHfl1",
+    "S3wcLNzK",
+    "70weslQ5",
+    "v6VVt1j8",
+    "oHfoyoNT",
+    "vJZwINTd",
+    "26gJfeNj",
+    "8W0RU7wv",
+    "168VjK8g",
+    "QCADORdU",
+    "11eseza2",
+    "WvOMOsMU",
+    "kEI48UY8",
+    "1GmB6Cbp",
+    "Nxva2Kr3",
+    "bRZqybLN",
+    "3aAGFWpD",
+    "z31P1uww",
+    "lyzMcwW0",
+    "iisMHDxb",
+    "IECZqCHk",
+    "iRKdpzfA",
+    "jZz3HX4t",
+    "j83hSepE",
+    "w4EUR2k3",
+    "pBhtiTPk",
+    "zeY9HYzm",
+    "TZMvlJ3H",
+    "IGiGGnz5",
+    "5NtMrs6m",
+    "J2sKeYqr",
+    "84Cd8SoV",
+    "cokPKWIL",
+    "7oSDtcIL",
+    "7DOMDObe",
+    "KkAWuXpl",
+    "cg6KIugn",
+    "4XFz8QWx",
+    "ylqLYHEn",
+    "7czlfwXV",
+    "1BvsaCXf",
+    "PDKy7kxf",
+    "p65frETO",
+    "veVp8V7Y",
+    "st34Nca0",
+    "XtpsyD6Q",
+    "tXq08uah",
+    "X0208hWs",
+    "m7jE9AXj",
+    "gDCCYaOt",
+    "V6hR1cp3",
+    "XihfAk9F",
+    "8wxAmtWt",
+    "LPcYNfPc",
+    "VkkkaCH1",
+    "KT3Ooz7O",
+    "v1ofntdB",
+    "03jEUl79",
+    "JiHRu87M",
+    "xvIm2G9T",
+    "8aqmu3Cg",
+    "jk5AweNR",
+    "H4EeXM1c",
+    "QBp2KjS5",
+    "I2aoxzaO",
+    "MHuW1ufQ",
+    "uuuBMT72",
+    "j8z7XEws",
+    "u3ENT7qN",
+    "1maOz6rR",
+    "r6Kl5KNI",
+    "LNpy10TS",
+    "KKcZZq4o",
+    "pa0jXXLk"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-09T23:37:24.712172+00:00",
+  "config_path": "/tmp/stockfish_time_budget_sweep_smoke_global.yaml",
+  "position_scores_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_07_complexity_scoring/complexity/position_scores.csv",
+  "parsed_positions_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/parsed/positions.csv",
+  "analysis_id": "20260510_stockfish_time_budget_smoke_global",
+  "selected_game_id": "GLOBAL_TOP_COMPLEXITY",
+  "game_label": "Top 3 high-complexity positions across all games",
+  "selected_position_count": 3,
+  "budget_count": 2,
+  "budgets_ms": [
+    50,
+    200
+  ],
+  "parallel": {
+    "max_workers": 1,
+    "stockfish_threads_per_worker": 1,
+    "multipv": 10
+  },
+  "position_ids": [
+    "KT3Ooz7O_ply_34",
+    "KkAWuXpl_ply_42",
+    "j83hSepE_ply_50"
+  ],
+  "best_move_switch_stats": {
+    "min": 0,
+    "max": 1,
+    "mean": 0.6667
+  },
+  "best_score_range_stats": {
+    "min": 12,
+    "max": 17,
+    "mean": 14
+  },
+  "actual_move_rank_range_stats": {
+    "min": 0,
+    "max": 1,
+    "mean": 0.5
+  },
+  "root_analysis_row_count": 6,
+  "selection_mode": "global_top_complexity",
+  "paths": {
+    "selected_positions_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/analyses/20260510_stockfish_time_budget_smoke_global/stockfish_time_budget/tables/selected_positions.csv",
+    "position_stability_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/analyses/20260510_stockfish_time_budget_smoke_global/stockfish_time_budget/tables/position_stability.csv",
+    "root_analysis_by_budget_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/analyses/20260510_stockfish_time_budget_smoke_global/stockfish_time_budget/tables/root_analysis_by_budget.csv",
+    "root_analysis_by_budget_jsonl": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/analyses/20260510_stockfish_time_budget_smoke_global/stockfish_time_budget/root_analysis_by_budget.jsonl"
+  }
+}

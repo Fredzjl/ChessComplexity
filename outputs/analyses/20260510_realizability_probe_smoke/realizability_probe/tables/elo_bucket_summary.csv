@@ -1,0 +1,3 @@
+elo_bucket_start,elo_bucket_label,position_count,candidate_count,actual_candidate_count,engine_best_candidate_count,mean_actual_realizability,mean_engine_best_realizability,mean_actual_minus_engine_best,actual_beats_engine_best_rate,actual_matches_top_realizability_rate,candidate_level_maia_probability_realizability_corr
+1900,1900-1999,2,8,2,2,44.73,47.08,-2.35,0.5,0.5,0.2508
+2000,2000-2099,1,4,1,1,33.0,33.0,0.0,0.0,1.0,

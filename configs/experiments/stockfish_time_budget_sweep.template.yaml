@@ -1,0 +1,26 @@
+experiment_name: stockfish_time_budget_sweep
+source_run_id: TEMPLATE_SOURCE_RUN_ID
+position_source:
+  complex_only: true
+  complexity_threshold: 10
+stockfish:
+  binary_path: null
+  threads: 4
+  hash_mb: 256
+  multipv: 10
+  time_budgets_ms:
+    - 50
+    - 200
+    - 1000
+    - 5000
+    - 15000
+    - 60000
+metrics:
+  track_best_move_switches: true
+  track_best_score_range_cp: true
+  track_actual_move_rank_range: true
+  track_topk_overlap: true
+  track_pv_prefix_stability: true
+outputs:
+  save_root: outputs/analyses
+  analysis_id: TEMPLATE_STOCKFISH_TIME_SWEEP

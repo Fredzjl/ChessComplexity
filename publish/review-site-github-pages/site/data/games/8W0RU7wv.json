@@ -1,0 +1,25 @@
+{
+  "game_id": "8W0RU7wv",
+  "game_index": 34,
+  "white": "myriadth",
+  "black": "Cmargulhano",
+  "white_elo": 1475,
+  "black_elo": 1475,
+  "result": "0-1",
+  "event": "Rated Bullet game",
+  "time_control": "60+0",
+  "opening": "Nimzo-Larsen Attack: Modern Variation",
+  "eco": "A01",
+  "ply_count": 10,
+  "move_text": "1. b3 e5 2. Bb2 Nf6 3. Bxe5 Bc5 4. Bxf6 Qxf6 5. Nc3 Qxf2#",
+  "stats": {
+    "eligible_positions": 0,
+    "high_complexity_positions": 0,
+    "failed_positions": 0,
+    "maia_high_engine_bad_positions": 0,
+    "engine_best_maia_reluctant_positions": 0,
+    "max_complexity_score": 0
+  },
+  "positions": [],
+  "data_path": "data/games/8W0RU7wv.json"
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Complexity Review Prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">Human-like Complexity</p>
+          <h1>Review Prototype</h1>
+          <p class="lede">
+            Choose a game, then inspect candidate middlegame positions with human-model moves, engine suggestions, and the actual played continuation.
+          </p>
+        </div>
+
+        <section class="sidebar-card">
+          <label for="game-select">Game</label>
+          <select id="game-select"></select>
+          <label for="review-filter">Review Focus</label>
+          <select id="review-filter"></select>
+          <p id="review-filter-help" class="filter-help"></p>
+          <div id="game-meta" class="meta-list"></div>
+        </section>
+
+        <section class="sidebar-card">
+          <div class="section-head">
+            <h2>Position Timeline</h2>
+            <span id="timeline-count" class="pill"></span>
+          </div>
+          <div id="position-list" class="position-list"></div>
+        </section>
+      </aside>
+
+      <main class="main">
+        <header class="hero">
+          <div>
+            <p class="eyebrow">Experiment Summary</p>
+            <h2 id="summary-title">Loading...</h2>
+            <p id="summary-subtitle" class="hero-subtitle"></p>
+          </div>
+          <div id="summary-stats" class="summary-grid"></div>
+        </header>
+
+        <section id="rank-comparison-section" class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Experiment 2</p>
+                <h3>Actual-Move Rank Comparison</h3>
+              </div>
+            </div>
+            <div class="control-row">
+              <label for="rank-model-select">Model</label>
+              <select id="rank-model-select"></select>
+            </div>
+            <div id="rank-overview" class="summary-grid summary-grid-rank"></div>
+            <p id="rank-note" class="muted-line"></p>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Elo Buckets</p>
+                <h3>All Positions vs Complex Positions</h3>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table id="rank-bucket-table" class="data-table"></table>
+            </div>
+          </article>
+        </section>
+
+        <section id="time-budget-section" class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Experiment 1</p>
+                <h3>Stockfish Time-Budget Sweep</h3>
+              </div>
+            </div>
+            <div id="time-budget-overview" class="summary-grid summary-grid-rank"></div>
+            <p id="time-budget-note" class="muted-line"></p>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Current Position</p>
+                <h3>Budget Stability</h3>
+              </div>
+            </div>
+            <div id="time-budget-position-summary" class="insight-card"></div>
+            <div class="table-wrap">
+              <table id="time-budget-budget-table" class="data-table"></table>
+            </div>
+          </article>
+        </section>
+
+        <section id="realizability-section" class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Experiment 3</p>
+                <h3>Realizability Overview</h3>
+              </div>
+            </div>
+            <div id="realizability-overview" class="summary-grid summary-grid-rank"></div>
+            <p id="realizability-note" class="muted-line"></p>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Elo Buckets</p>
+                <h3>Actual Move vs Engine Best</h3>
+              </div>
+            </div>
+            <div class="table-wrap">
+              <table id="realizability-bucket-table" class="data-table"></table>
+            </div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel board-panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Selected Position</p>
+                <h3 id="position-title">-</h3>
+              </div>
+              <div id="position-badges" class="badge-row"></div>
+            </div>
+            <img id="board-image" alt="Selected chess board" class="board-image" />
+            <div id="position-meta" class="meta-grid"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Scoring Breakdown</p>
+                <h3>Complexity Score</h3>
+              </div>
+            </div>
+            <div id="complexity-score-card" class="score-card"></div>
+            <div id="depth-breakdown" class="depth-breakdown"></div>
+            <div id="human-move-card" class="human-move-card"></div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Experiment 3</p>
+                <h3>Realizability Candidates</h3>
+              </div>
+            </div>
+            <div id="realizability-position-summary" class="insight-card"></div>
+            <div id="realizability-candidate-list" class="move-list"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Interpretation</p>
+                <h3>What This Tries To Measure</h3>
+              </div>
+            </div>
+            <div id="realizability-position-note" class="insight-card"></div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Human-like Model</p>
+                <h3>Root Move Probabilities</h3>
+              </div>
+            </div>
+            <div id="model-moves" class="move-list"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Engine</p>
+                <h3>Stockfish Suggestions</h3>
+              </div>
+            </div>
+            <div id="engine-moves" class="move-list"></div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Actual Game</p>
+                <h3>Continuation After This Position</h3>
+              </div>
+            </div>
+            <div id="continuation-list" class="continuation-list"></div>
+            <details class="details-box" open>
+              <summary>Full game move text</summary>
+              <p id="move-text" class="move-text"></p>
+            </details>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Three-Ply Tree</p>
+                <h3>Qualified Branches</h3>
+              </div>
+            </div>
+            <div id="tree-view" class="tree-view"></div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Conflict View A</p>
+                <h3>Maia High, Engine Bad</h3>
+              </div>
+            </div>
+            <div id="maia-engine-conflict-summary" class="insight-card"></div>
+            <div id="maia-engine-conflict-list" class="move-list"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Conflict View B</p>
+                <h3>Engine Best, Maia Reluctant</h3>
+              </div>
+            </div>
+            <div id="engine-best-reluctance-summary" class="insight-card"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <template id="move-card-template">
+      <div class="move-card">
+        <div class="move-card-head">
+          <span class="move-rank"></span>
+          <span class="move-san"></span>
+        </div>
+        <div class="move-card-body">
+          <div class="prob-bar"><span></span></div>
+          <div class="move-meta"></div>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

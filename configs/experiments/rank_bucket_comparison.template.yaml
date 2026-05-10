@@ -1,0 +1,29 @@
+experiment_name: rank_bucket_comparison
+source_run_id: TEMPLATE_SOURCE_RUN_ID
+population:
+  min_player_elo: 1000
+  elo_bucket_width: 100
+position_sets:
+  include_all_eligible: true
+  include_high_complexity: true
+  complexity_threshold: 10
+models:
+  maia2:
+    enabled: true
+  stockfish:
+    enabled: true
+    binary_path: null
+    movetime_ms: 1000
+    multipv: 20
+    score_actual_move_explicitly: true
+metrics:
+  compute_mean_rank: true
+  compute_median_rank: true
+  compute_hit_at:
+    - 1
+    - 3
+    - 5
+  compute_coverage: true
+outputs:
+  save_root: outputs/analyses
+  analysis_id: TEMPLATE_RANK_BUCKET_COMPARISON

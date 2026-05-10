@@ -1,0 +1,23 @@
+{
+  "source_url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+  "archive_output": "data/raw/lichess_sample_10_games.partial.pgn.zst",
+  "raw_output": "data/raw/lichess_sample_10_games.pgn",
+  "target_games": 10,
+  "downloaded_bytes": 5242880,
+  "byte_range": "0-5242879",
+  "archive_sha256": "0a3dadd6a098a5fffa8cb69905c4543b62d9afaf4fba51abad23eb6cfe6ce92d",
+  "raw_sha256": "00381ceb324f695a0c57b6b490f46c302bb9090bbadd93ce98829f25f7b2a7a8",
+  "extraction_timestamp_utc": "2026-05-09T10:43:23.830803+00:00",
+  "game_ids": [
+    "eEZHeIt9",
+    "0FPloRZ3",
+    "4R1mZKx7",
+    "N4fTFT0K",
+    "LK3GPd2w",
+    "76qUOYmI",
+    "ouZvV0ii",
+    "ieeyTbsT",
+    "E2IWhmiD",
+    "I2aNLjXE"
+  ]
+}

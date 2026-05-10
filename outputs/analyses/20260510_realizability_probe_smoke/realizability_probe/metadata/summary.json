@@ -1,0 +1,32 @@
+{
+  "experiment_name": "realizability_probe",
+  "position_count": 3,
+  "candidate_count": 12,
+  "actual_candidate_count": 3,
+  "engine_best_candidate_count": 3,
+  "forced_actual_candidate_count": 3,
+  "mean_candidate_realizability": 37.3017,
+  "median_candidate_realizability": 33.0,
+  "mean_actual_realizability": 40.82,
+  "mean_engine_best_realizability": 42.3867,
+  "mean_actual_minus_engine_best": -1.5667,
+  "actual_beats_engine_best_rate": 0.3333,
+  "actual_matches_top_realizability_rate": 0.6667,
+  "candidate_level_maia_probability_realizability_corr": 0.2343,
+  "actual_move_maia_probability_mean": 0.0815,
+  "population": {
+    "complex_only": true,
+    "complexity_threshold": 10,
+    "min_player_elo_bucketed": 1000,
+    "elo_bucket_width": 100
+  },
+  "engine": {
+    "root_movetime_ms": 80,
+    "node_movetime_ms": 60,
+    "root_multipv": 6,
+    "node_multipv": 4,
+    "threads_per_worker": 1,
+    "max_workers": 1
+  },
+  "bucket_count": 2
+}

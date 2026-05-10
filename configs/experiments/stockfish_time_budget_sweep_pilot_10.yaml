@@ -1,0 +1,21 @@
+experiment_name: stockfish_time_budget_sweep_pilot
+selection:
+  complex_only: true
+  game_id: j83hSepE
+  max_positions: 10
+stockfish:
+  binary_path: null
+  threads_per_worker: 1
+  hash_mb: 128
+  multipv: 10
+  max_workers: auto
+  time_budgets_ms:
+    - 50
+    - 200
+    - 1000
+    - 5000
+    - 15000
+    - 60000
+outputs:
+  save_root: outputs/analyses
+  analysis_id: 20260509_stockfish_time_budget_pilot_10

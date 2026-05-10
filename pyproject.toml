@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chess-complexity-full-test"
+version = "0.1.0"
+description = "Scaffold for a human-like chess complexity experiment."
+requires-python = ">=3.11"
+dependencies = [
+  "python-chess>=1.999",
+  "PyYAML>=6.0",
+  "Pillow>=10.0",
+  "CairoSVG>=2.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

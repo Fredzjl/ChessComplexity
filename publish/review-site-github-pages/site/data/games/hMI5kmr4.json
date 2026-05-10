@@ -1,0 +1,4470 @@
+{
+  "game_id": "hMI5kmr4",
+  "game_index": 23,
+  "white": "Yhunely",
+  "black": "kefer0",
+  "white_elo": 1272,
+  "black_elo": 1387,
+  "result": "0-1",
+  "event": "Rated Rapid tournament https://lichess.org/tournament/RZYdjyMf",
+  "time_control": "480+0",
+  "opening": "Petrov's Defense: Italian Variation",
+  "eco": "C42",
+  "ply_count": 22,
+  "move_text": "1. e4 e5 2. Bc4 Nf6 3. Nf3 Bc5 4. Nxe5 O-O 5. Nf3 Nxe4 6. h4 Nxf2 7. Qe2 Re8 8. Ne5 d6 9. c3 Rxe5 10. Bd3 Rxe2+ 11. Bxe2 Nxh1",
+  "stats": {
+    "eligible_positions": 5,
+    "high_complexity_positions": 2,
+    "failed_positions": 0,
+    "maia_high_engine_bad_positions": 0,
+    "engine_best_maia_reluctant_positions": 1,
+    "max_complexity_score": 18
+  },
+  "positions": [
+    {
+      "position_id": "hMI5kmr4_ply_18",
+      "label": "10W",
+      "game_id": "hMI5kmr4",
+      "ply_index": 18,
+      "fullmove_number": 10,
+      "side_to_move": "white",
+      "fen": "rnbq2k1/ppp2ppp/3p4/2b1r3/2B4P/2P5/PP1PQnP1/RNB1K2R w KQ - 0 10",
+      "board_image": "assets/boards/hMI5kmr4_ply_18.png",
+      "previous_move": {
+        "uci": "e8e5",
+        "san": "Rxe5"
+      },
+      "actual_move": {
+        "available": true,
+        "detail": {
+          "position_id_after_move": "hMI5kmr4_ply_19",
+          "uci": "c4d3",
+          "san": "Bd3",
+          "side": "white",
+          "fullmove_number": 10
+        },
+        "model_rank": 11,
+        "model_probability": 0.0056,
+        "model_qualifies_threshold": false,
+        "engine_rank": null,
+        "engine_score_text": null
+      },
+      "actual_continuation": [
+        {
+          "position_id": "hMI5kmr4_ply_19",
+          "uci": "c4d3",
+          "san": "Bd3",
+          "side_to_move_after": "black",
+          "fullmove_number": 10
+        },
+        {
+          "position_id": "hMI5kmr4_ply_20",
+          "uci": "e5e2",
+          "san": "Rxe2+",
+          "side_to_move_after": "white",
+          "fullmove_number": 11
+        },
+        {
+          "position_id": "hMI5kmr4_ply_21",
+          "uci": "d3e2",
+          "san": "Bxe2",
+          "side_to_move_after": "black",
+          "fullmove_number": 11
+        },
+        {
+          "position_id": "hMI5kmr4_ply_22",
+          "uci": "f2h1",
+          "san": "Nxh1",
+          "side_to_move_after": "white",
+          "fullmove_number": 12
+        }
+      ],
+      "complexity": {
+        "score": 18,
+        "high": true,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": 3,
+          "depth_1": 4,
+          "depth_2": 11
+        },
+        "queried_node_count": 8,
+        "inference_status": "success",
+        "error_type": "",
+        "error_message": ""
+      },
+      "model": {
+        "available": true,
+        "win_prob": 0.0478,
+        "qualifying_moves": [
+          {
+            "uci": "e2e5",
+            "probability": 0.3848
+          },
+          {
+            "uci": "d2d4",
+            "probability": 0.1933
+          },
+          {
+            "uci": "c4f7",
+            "probability": 0.1573
+          }
+        ],
+        "top_moves": [
+          {
+            "rank": 1,
+            "uci": "e2e5",
+            "probability": 0.3848,
+            "qualifies": true
+          },
+          {
+            "rank": 2,
+            "uci": "d2d4",
+            "probability": 0.1933,
+            "qualifies": true
+          },
+          {
+            "rank": 3,
+            "uci": "c4f7",
+            "probability": 0.1573,
+            "qualifies": true
+          },
+          {
+            "rank": 4,
+            "uci": "h1f1",
+            "probability": 0.0905,
+            "qualifies": false
+          },
+          {
+            "rank": 5,
+            "uci": "e1g1",
+            "probability": 0.0813,
+            "qualifies": false
+          },
+          {
+            "rank": 6,
+            "uci": "h1h3",
+            "probability": 0.0237,
+            "qualifies": false
+          },
+          {
+            "rank": 7,
+            "uci": "b2b4",
+            "probability": 0.0183,
+            "qualifies": false
+          },
+          {
+            "rank": 8,
+            "uci": "d2d3",
+            "probability": 0.0079,
+            "qualifies": false
+          },
+          {
+            "rank": 9,
+            "uci": "e1f1",
+            "probability": 0.0069,
+            "qualifies": false
+          },
+          {
+            "rank": 10,
+            "uci": "h4h5",
+            "probability": 0.0059,
+            "qualifies": false
+          }
+        ],
+        "tree_nodes_by_depth": {
+          "0": [
+            {
+              "node_id": "hMI5kmr4_ply_18__root",
+              "parent_node_id": "",
+              "depth": 0,
+              "path_uci": [],
+              "path_probability": 1.0,
+              "qualifying_move_count": 3,
+              "qualifying_moves": [
+                {
+                  "uci": "e2e5",
+                  "probability": 0.3848
+                },
+                {
+                  "uci": "d2d4",
+                  "probability": 0.1933
+                },
+                {
+                  "uci": "c4f7",
+                  "probability": 0.1573
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e2e5",
+                  "probability": 0.3848,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d2d4",
+                  "probability": 0.1933,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "c4f7",
+                  "probability": 0.1573,
+                  "qualifies": true
+                },
+                {
+                  "rank": 4,
+                  "uci": "h1f1",
+                  "probability": 0.0905,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "e1g1",
+                  "probability": 0.0813,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0478
+            }
+          ],
+          "1": [
+            {
+              "node_id": "hMI5kmr4_ply_18__e2e5",
+              "parent_node_id": "hMI5kmr4_ply_18__root",
+              "depth": 1,
+              "path_uci": [
+                "e2e5"
+              ],
+              "path_probability": 0.3848,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "d6e5",
+                  "probability": 0.8549
+                },
+                {
+                  "uci": "f2h1",
+                  "probability": 0.1162
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d6e5",
+                  "probability": 0.8549,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "f2h1",
+                  "probability": 0.1162,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "f2d3",
+                  "probability": 0.0122,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "f2g4",
+                  "probability": 0.0059,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c8g4",
+                  "probability": 0.0019,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0508
+            },
+            {
+              "node_id": "hMI5kmr4_ply_18__d2d4",
+              "parent_node_id": "hMI5kmr4_ply_18__root",
+              "depth": 1,
+              "path_uci": [
+                "d2d4"
+              ],
+              "path_probability": 0.1933,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "e5e2",
+                  "probability": 0.9522
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e5e2",
+                  "probability": 0.9522,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "f2h1",
+                  "probability": 0.0299,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "c5d4",
+                  "probability": 0.0102,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "f2d3",
+                  "probability": 0.0024,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c8g4",
+                  "probability": 0.0012,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.095
+            },
+            {
+              "node_id": "hMI5kmr4_ply_18__c4f7",
+              "parent_node_id": "hMI5kmr4_ply_18__root",
+              "depth": 1,
+              "path_uci": [
+                "c4f7"
+              ],
+              "path_probability": 0.1573,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "g8f7",
+                  "probability": 0.9532
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "g8f7",
+                  "probability": 0.9532,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "g8h8",
+                  "probability": 0.0375,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "g8f8",
+                  "probability": 0.0093,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "a8h1",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.076
+            }
+          ],
+          "2": [
+            {
+              "node_id": "hMI5kmr4_ply_18__e2e5__d6e5",
+              "parent_node_id": "hMI5kmr4_ply_18__e2e5",
+              "depth": 2,
+              "path_uci": [
+                "e2e5",
+                "d6e5"
+              ],
+              "path_probability": 0.32896552,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "h1f1",
+                  "probability": 0.5323
+                },
+                {
+                  "uci": "e1g1",
+                  "probability": 0.1357
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "h1f1",
+                  "probability": 0.5323,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e1g1",
+                  "probability": 0.1357,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "d2d4",
+                  "probability": 0.0734,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "h1h3",
+                  "probability": 0.0703,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "h1h2",
+                  "probability": 0.0578,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0606
+            },
+            {
+              "node_id": "hMI5kmr4_ply_18__e2e5__f2h1",
+              "parent_node_id": "hMI5kmr4_ply_18__e2e5",
+              "depth": 2,
+              "path_uci": [
+                "e2e5",
+                "f2h1"
+              ],
+              "path_probability": 0.04471376,
+              "qualifying_move_count": 3,
+              "qualifying_moves": [
+                {
+                  "uci": "e5f4",
+                  "probability": 0.4199
+                },
+                {
+                  "uci": "e5d5",
+                  "probability": 0.1775
+                },
+                {
+                  "uci": "e5h2",
+                  "probability": 0.1674
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e5f4",
+                  "probability": 0.4199,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e5d5",
+                  "probability": 0.1775,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "e5h2",
+                  "probability": 0.1674,
+                  "qualifies": true
+                },
+                {
+                  "rank": 4,
+                  "uci": "e5h5",
+                  "probability": 0.0714,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "e5e4",
+                  "probability": 0.0443,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.2055
+            },
+            {
+              "node_id": "hMI5kmr4_ply_18__d2d4__e5e2",
+              "parent_node_id": "hMI5kmr4_ply_18__d2d4",
+              "depth": 2,
+              "path_uci": [
+                "d2d4",
+                "e5e2"
+              ],
+              "path_probability": 0.18406026,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "e1e2",
+                  "probability": 0.7336
+                },
+                {
+                  "uci": "c4e2",
+                  "probability": 0.2531
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e1e2",
+                  "probability": 0.7336,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "c4e2",
+                  "probability": 0.2531,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "e1f1",
+                  "probability": 0.0133,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "a1h8",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0419
+            },
+            {
+              "node_id": "hMI5kmr4_ply_18__c4f7__g8f7",
+              "parent_node_id": "hMI5kmr4_ply_18__c4f7",
+              "depth": 2,
+              "path_uci": [
+                "c4f7",
+                "g8f7"
+              ],
+              "path_probability": 0.14993836,
+              "qualifying_move_count": 4,
+              "qualifying_moves": [
+                {
+                  "uci": "e2e5",
+                  "probability": 0.3205
+                },
+                {
+                  "uci": "h1f1",
+                  "probability": 0.2988
+                },
+                {
+                  "uci": "d2d4",
+                  "probability": 0.1575
+                },
+                {
+                  "uci": "e1g1",
+                  "probability": 0.1113
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e2e5",
+                  "probability": 0.3205,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "h1f1",
+                  "probability": 0.2988,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "d2d4",
+                  "probability": 0.1575,
+                  "qualifies": true
+                },
+                {
+                  "rank": 4,
+                  "uci": "e1g1",
+                  "probability": 0.1113,
+                  "qualifies": true
+                },
+                {
+                  "rank": 5,
+                  "uci": "h1h3",
+                  "probability": 0.0435,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0249
+            }
+          ]
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [
+          {
+            "rank": 1,
+            "multipv": 1,
+            "uci": "e2e5",
+            "san": "Qxe5",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 212931,
+            "score_cp": -702,
+            "score_mate": null,
+            "score_text": "-7.02",
+            "pv_uci": [
+              "e2e5",
+              "d6e5",
+              "d2d4",
+              "f2h1",
+              "c1g5",
+              "c5e7"
+            ],
+            "pv_san": "10. Qxe5 dxe5 11. d4 Nxh1 12. Bg5 Be7"
+          },
+          {
+            "rank": 2,
+            "multipv": 2,
+            "uci": "e1g1",
+            "san": "O-O",
+            "depth": 13,
+            "seldepth": 15,
+            "nodes": 212931,
+            "score_cp": -726,
+            "score_mate": null,
+            "score_text": "-7.26",
+            "pv_uci": [
+              "e1g1",
+              "f2d3",
+              "e2e3",
+              "c5e3",
+              "d2e3",
+              "c8e6"
+            ],
+            "pv_san": "10. O-O Nd3+ 11. Qe3 Bxe3+ 12. dxe3 Be6"
+          },
+          {
+            "rank": 3,
+            "multipv": 3,
+            "uci": "h1f1",
+            "san": "Rf1",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 212931,
+            "score_cp": -753,
+            "score_mate": null,
+            "score_text": "-7.53",
+            "pv_uci": [
+              "h1f1",
+              "e5e2",
+              "c4e2",
+              "f2d3",
+              "e1d1",
+              "d3c1"
+            ],
+            "pv_san": "10. Rf1 Rxe2+ 11. Bxe2 Nd3+ 12. Kd1 Nxc1"
+          },
+          {
+            "rank": 4,
+            "multipv": 4,
+            "uci": "d2d4",
+            "san": "d4",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 212931,
+            "score_cp": -743,
+            "score_mate": null,
+            "score_text": "-7.43",
+            "pv_uci": [
+              "d2d4",
+              "e5e2",
+              "c4e2",
+              "f2h1",
+              "c1g5",
+              "d8e8"
+            ],
+            "pv_san": "10. d4 Rxe2+ 11. Bxe2 Nxh1 12. Bg5 Qe8"
+          },
+          {
+            "rank": 5,
+            "multipv": 5,
+            "uci": "h1h2",
+            "san": "Rh2",
+            "depth": 12,
+            "seldepth": 24,
+            "nodes": 212931,
+            "score_cp": -777,
+            "score_mate": null,
+            "score_text": "-7.77",
+            "pv_uci": [
+              "h1h2",
+              "e5e2",
+              "c4e2",
+              "d8e8",
+              "d2d4",
+              "c8g4"
+            ],
+            "pv_san": "10. Rh2 Rxe2+ 11. Bxe2 Qe8 12. d4 Bg4"
+          },
+          {
+            "rank": 6,
+            "multipv": 6,
+            "uci": "h1g1",
+            "san": "Rg1",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 212931,
+            "score_cp": -783,
+            "score_mate": null,
+            "score_text": "-7.83",
+            "pv_uci": [
+              "h1g1",
+              "e5e2",
+              "c4e2",
+              "f2d3",
+              "e2d3",
+              "c8g4"
+            ],
+            "pv_san": "10. Rg1 Rxe2+ 11. Bxe2 Nd3+ 12. Bxd3 Bg4"
+          },
+          {
+            "rank": 7,
+            "multipv": 7,
+            "uci": "h4h5",
+            "san": "h5",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 212931,
+            "score_cp": -783,
+            "score_mate": null,
+            "score_text": "-7.83",
+            "pv_uci": [
+              "h4h5",
+              "e5e2",
+              "c4e2",
+              "f2h1",
+              "d2d4",
+              "d8h4"
+            ],
+            "pv_san": "10. h5 Rxe2+ 11. Bxe2 Nxh1 12. d4 Qh4+"
+          },
+          {
+            "rank": 8,
+            "multipv": 8,
+            "uci": "e1f1",
+            "san": "Kf1",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 212931,
+            "score_cp": -783,
+            "score_mate": null,
+            "score_text": "-7.83",
+            "pv_uci": [
+              "e1f1",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "c4e2",
+              "d8h4"
+            ],
+            "pv_san": "10. Kf1 Nxh1 11. d4 Rxe2 12. Bxe2 Qxh4"
+          },
+          {
+            "rank": 9,
+            "multipv": 9,
+            "uci": "d2d3",
+            "san": "d3",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 212931,
+            "score_cp": -805,
+            "score_mate": null,
+            "score_text": "-8.05",
+            "pv_uci": [
+              "d2d3",
+              "e5e2",
+              "e1e2",
+              "c8g4",
+              "e2d2",
+              "f2h1"
+            ],
+            "pv_san": "10. d3 Rxe2+ 11. Kxe2 Bg4+ 12. Kd2 Nxh1"
+          },
+          {
+            "rank": 10,
+            "multipv": 10,
+            "uci": "g2g3",
+            "san": "g3",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 212931,
+            "score_cp": -813,
+            "score_mate": null,
+            "score_text": "-8.13",
+            "pv_uci": [
+              "g2g3",
+              "e5e2",
+              "e1e2",
+              "c8g4",
+              "e2f1",
+              "f2d3"
+            ],
+            "pv_san": "10. g3 Rxe2+ 11. Kxe2 Bg4+ 12. Kf1 Nd3"
+          },
+          {
+            "rank": 11,
+            "multipv": 11,
+            "uci": "b1a3",
+            "san": "Na3",
+            "depth": 12,
+            "seldepth": 25,
+            "nodes": 212931,
+            "score_cp": -816,
+            "score_mate": null,
+            "score_text": "-8.16",
+            "pv_uci": [
+              "b1a3",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "c4e2",
+              "d8h4"
+            ],
+            "pv_san": "10. Na3 Nxh1 11. d4 Rxe2+ 12. Bxe2 Qxh4+"
+          },
+          {
+            "rank": 12,
+            "multipv": 12,
+            "uci": "h1h3",
+            "san": "Rh3",
+            "depth": 12,
+            "seldepth": 31,
+            "nodes": 212931,
+            "score_cp": -824,
+            "score_mate": null,
+            "score_text": "-8.24",
+            "pv_uci": [
+              "h1h3",
+              "e5e2",
+              "c4e2",
+              "f2h3",
+              "e2f3",
+              "d8h4"
+            ],
+            "pv_san": "10. Rh3 Rxe2+ 11. Bxe2 Nxh3 12. Bf3 Qxh4+"
+          },
+          {
+            "rank": 13,
+            "multipv": 13,
+            "uci": "b2b4",
+            "san": "b4",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 212931,
+            "score_cp": -827,
+            "score_mate": null,
+            "score_text": "-8.27",
+            "pv_uci": [
+              "b2b4",
+              "e5e2",
+              "c4e2"
+            ],
+            "pv_san": "10. b4 Rxe2+ 11. Bxe2"
+          },
+          {
+            "rank": 14,
+            "multipv": 14,
+            "uci": "b2b3",
+            "san": "b3",
+            "depth": 12,
+            "seldepth": 13,
+            "nodes": 212931,
+            "score_cp": -833,
+            "score_mate": null,
+            "score_text": "-8.33",
+            "pv_uci": [
+              "b2b3",
+              "f2h1",
+              "d2d4",
+              "d8h4",
+              "g2g3",
+              "e5e2"
+            ],
+            "pv_san": "10. b3 Nxh1 11. d4 Qxh4+ 12. g3 Rxe2+"
+          },
+          {
+            "rank": 15,
+            "multipv": 15,
+            "uci": "c4f7",
+            "san": "Bxf7+",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 212931,
+            "score_cp": -835,
+            "score_mate": null,
+            "score_text": "-8.35",
+            "pv_uci": [
+              "c4f7",
+              "g8f7",
+              "d2d4",
+              "f2d3",
+              "e1d2",
+              "e5e2"
+            ],
+            "pv_san": "10. Bxf7+ Kxf7 11. d4 Nd3+ 12. Kd2 Rxe2+"
+          },
+          {
+            "rank": 16,
+            "multipv": 16,
+            "uci": "a2a4",
+            "san": "a4",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 212931,
+            "score_cp": -842,
+            "score_mate": null,
+            "score_text": "-8.42",
+            "pv_uci": [
+              "a2a4",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10. a4 Nxh1 11. d4 Rxe2+ 12. Kxe2"
+          },
+          {
+            "rank": 17,
+            "multipv": 17,
+            "uci": "e2e3",
+            "san": "Qe3",
+            "depth": 12,
+            "seldepth": 22,
+            "nodes": 212931,
+            "score_cp": -849,
+            "score_mate": null,
+            "score_text": "-8.49",
+            "pv_uci": [
+              "e2e3",
+              "f2h1",
+              "d2d4",
+              "d8h4",
+              "e1f1",
+              "b8c6"
+            ],
+            "pv_san": "10. Qe3 Nxh1 11. d4 Qxh4+ 12. Kf1 Nc6"
+          },
+          {
+            "rank": 18,
+            "multipv": 18,
+            "uci": "a2a3",
+            "san": "a3",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 212931,
+            "score_cp": -867,
+            "score_mate": null,
+            "score_text": "-8.67",
+            "pv_uci": [
+              "a2a3",
+              "f2h1",
+              "d2d3",
+              "e5e2",
+              "e1e2",
+              "d8e8"
+            ],
+            "pv_san": "10. a3 Nxh1 11. d3 Rxe2+ 12. Kxe2 Qe8+"
+          },
+          {
+            "rank": 19,
+            "multipv": 19,
+            "uci": "c4b5",
+            "san": "Bb5",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 212931,
+            "score_cp": -871,
+            "score_mate": null,
+            "score_text": "-8.71",
+            "pv_uci": [
+              "c4b5",
+              "f2h1",
+              "d2d4",
+              "d8h4",
+              "e1d1",
+              "e5e2"
+            ],
+            "pv_san": "10. Bb5 Nxh1 11. d4 Qxh4+ 12. Kd1 Rxe2"
+          },
+          {
+            "rank": 20,
+            "multipv": 20,
+            "uci": "c4d5",
+            "san": "Bd5",
+            "depth": 12,
+            "seldepth": 15,
+            "nodes": 212931,
+            "score_cp": -873,
+            "score_mate": null,
+            "score_text": "-8.73",
+            "pv_uci": [
+              "c4d5",
+              "f2d3",
+              "e1d1",
+              "d3f2",
+              "d1e1",
+              "f2h1"
+            ],
+            "pv_san": "10. Bd5 Nd3+ 11. Kd1 Nf2+ 12. Ke1 Nxh1"
+          }
+        ],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": false,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": {
+            "uci": "e2e5",
+            "san": "Qxe5",
+            "score_cp": -702,
+            "score_text": "-7.02",
+            "pv_san": "10. Qxe5 dxe5 11. d4 Nxh1 12. Bg5 Be7",
+            "maia_rank": 1,
+            "maia_probability": 0.3848,
+            "maia_qualifies_threshold": true,
+            "actual_matches": false
+          }
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": true,
+          "summary": {
+            "budget_count": 6,
+            "best_move_path": "50ms:Qxe5 | 200ms:Qxe5 | 1000ms:d4 | 5000ms:O-O | 15000ms:d4 | 60000ms:d4",
+            "best_move_switch_count": 3,
+            "unique_best_move_count": 3,
+            "best_score_min_cp": -837,
+            "best_score_max_cp": -674,
+            "best_score_mean_cp": -741.8333,
+            "best_score_range_cp": 163,
+            "adjacent_top3_overlap_min": 0.5,
+            "adjacent_top3_overlap_mean": 0.6,
+            "adjacent_top5_overlap_min": 0.4286,
+            "adjacent_top5_overlap_mean": 0.7524,
+            "best_pv_prefix_min_plies": 0,
+            "best_pv_prefix_mean_plies": 1.6,
+            "actual_move_present_budget_count": 0,
+            "actual_move_rank_min": null,
+            "actual_move_rank_max": null,
+            "actual_move_rank_mean": null,
+            "actual_move_rank_range": null,
+            "actual_move_rank_path": "50ms:>10 | 200ms:>10 | 1000ms:>10 | 5000ms:>10 | 15000ms:>10 | 60000ms:>10"
+          },
+          "budget_rows": [
+            {
+              "budget_ms": 50,
+              "best_move_uci": "e2e5",
+              "best_move_san": "Qxe5",
+              "best_move_score_cp": -674,
+              "best_move_score_text": "-6.74",
+              "best_move_depth": 11,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            },
+            {
+              "budget_ms": 200,
+              "best_move_uci": "e2e5",
+              "best_move_san": "Qxe5",
+              "best_move_score_cp": -714,
+              "best_move_score_text": "-7.14",
+              "best_move_depth": 13,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            },
+            {
+              "budget_ms": 1000,
+              "best_move_uci": "d2d4",
+              "best_move_san": "d4",
+              "best_move_score_cp": -718,
+              "best_move_score_text": "-7.18",
+              "best_move_depth": 16,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            },
+            {
+              "budget_ms": 5000,
+              "best_move_uci": "e1g1",
+              "best_move_san": "O-O",
+              "best_move_score_cp": -715,
+              "best_move_score_text": "-7.15",
+              "best_move_depth": 18,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            },
+            {
+              "budget_ms": 15000,
+              "best_move_uci": "d2d4",
+              "best_move_san": "d4",
+              "best_move_score_cp": -793,
+              "best_move_score_text": "-7.93",
+              "best_move_depth": 19,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            },
+            {
+              "budget_ms": 60000,
+              "best_move_uci": "d2d4",
+              "best_move_san": "d4",
+              "best_move_score_cp": -837,
+              "best_move_score_text": "-8.37",
+              "best_move_depth": 20,
+              "actual_move_uci": "c4d3",
+              "actual_move_san": "Bd3",
+              "actual_move_rank": null,
+              "actual_move_rank_label": ">10",
+              "actual_move_in_topk": false,
+              "actual_move_score_cp": null,
+              "actual_move_score_text": ""
+            }
+          ]
+        },
+        "realizability": {
+          "available": true,
+          "summary": {
+            "actual_candidate_available": true,
+            "actual_realizability_score_v0": 33.0,
+            "actual_maia_probability": 0.0056,
+            "actual_maia_rank": 11,
+            "engine_best_uci": "e2e5",
+            "engine_best_san": "Qxe5",
+            "engine_best_realizability_score_v0": 33.0,
+            "engine_best_maia_probability": 0.3848,
+            "engine_best_maia_rank": 1,
+            "top_realizability_uci": "c4d3",
+            "top_realizability_san": "Bd3",
+            "top_realizability_score_v0": 33.0,
+            "actual_minus_engine_best_realizability": 0.0,
+            "actual_matches_engine_best": false,
+            "actual_matches_top_realizability": true,
+            "actual_beats_engine_best": false,
+            "candidate_count": 4
+          },
+          "candidates": [
+            {
+              "candidate_uci": "c4d3",
+              "candidate_san": "Bd3",
+              "candidate_role": "actual_move",
+              "forced_include_actual": true,
+              "is_actual_move": true,
+              "is_engine_best": false,
+              "root_rank": null,
+              "root_value_cp": -972,
+              "distance_from_best_cp": 294,
+              "viable_threshold_cp": 80,
+              "acceptable_width_player_d1": 0.0,
+              "acceptable_width_player_mean": 0.0,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": null,
+              "survival_rate_after_opponent": 0.0,
+              "opponent_refutation_density": 1.0,
+              "depth4_survival_rate": 0.0,
+              "unique_burden_plies": 0,
+              "longest_narrow_streak": 0,
+              "deviation_penalty_cp_mean": 0.0,
+              "deviation_penalty_cp_max": 0,
+              "mean_margin_to_viable_cp": null,
+              "conversion_horizon_plies": null,
+              "conversion_success_within_horizon": false,
+              "maia_rank": 11,
+              "maia_probability": 0.0056,
+              "realizability_score_v0": 33.0
+            },
+            {
+              "candidate_uci": "d2d4",
+              "candidate_san": "d4",
+              "candidate_role": "engine_topk",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": false,
+              "root_rank": 2,
+              "root_value_cp": -729,
+              "distance_from_best_cp": 51,
+              "viable_threshold_cp": 80,
+              "acceptable_width_player_d1": 0.0,
+              "acceptable_width_player_mean": 0.0,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": null,
+              "survival_rate_after_opponent": 0.0,
+              "opponent_refutation_density": 1.0,
+              "depth4_survival_rate": 0.0,
+              "unique_burden_plies": 0,
+              "longest_narrow_streak": 0,
+              "deviation_penalty_cp_mean": 0.0,
+              "deviation_penalty_cp_max": 0,
+              "mean_margin_to_viable_cp": null,
+              "conversion_horizon_plies": null,
+              "conversion_success_within_horizon": false,
+              "maia_rank": 2,
+              "maia_probability": 0.1933,
+              "realizability_score_v0": 33.0
+            },
+            {
+              "candidate_uci": "e2e5",
+              "candidate_san": "Qxe5",
+              "candidate_role": "engine_best",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": true,
+              "root_rank": 1,
+              "root_value_cp": -725,
+              "distance_from_best_cp": 47,
+              "viable_threshold_cp": 80,
+              "acceptable_width_player_d1": 0.0,
+              "acceptable_width_player_mean": 0.0,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": null,
+              "survival_rate_after_opponent": 0.0,
+              "opponent_refutation_density": 1.0,
+              "depth4_survival_rate": 0.0,
+              "unique_burden_plies": 0,
+              "longest_narrow_streak": 0,
+              "deviation_penalty_cp_mean": 0.0,
+              "deviation_penalty_cp_max": 0,
+              "mean_margin_to_viable_cp": null,
+              "conversion_horizon_plies": null,
+              "conversion_success_within_horizon": false,
+              "maia_rank": 1,
+              "maia_probability": 0.3848,
+              "realizability_score_v0": 33.0
+            },
+            {
+              "candidate_uci": "h1f1",
+              "candidate_san": "Rf1",
+              "candidate_role": "engine_topk",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": false,
+              "root_rank": 3,
+              "root_value_cp": -759,
+              "distance_from_best_cp": 81,
+              "viable_threshold_cp": 80,
+              "acceptable_width_player_d1": 0.0,
+              "acceptable_width_player_mean": 0.0,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": null,
+              "survival_rate_after_opponent": 0.0,
+              "opponent_refutation_density": 1.0,
+              "depth4_survival_rate": 0.0,
+              "unique_burden_plies": 0,
+              "longest_narrow_streak": 0,
+              "deviation_penalty_cp_mean": 0.0,
+              "deviation_penalty_cp_max": 0,
+              "mean_margin_to_viable_cp": null,
+              "conversion_horizon_plies": null,
+              "conversion_success_within_horizon": false,
+              "maia_rank": 4,
+              "maia_probability": 0.0905,
+              "realizability_score_v0": 33.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "position_id": "hMI5kmr4_ply_19",
+      "label": "10B",
+      "game_id": "hMI5kmr4",
+      "ply_index": 19,
+      "fullmove_number": 10,
+      "side_to_move": "black",
+      "fen": "rnbq2k1/ppp2ppp/3p4/2b1r3/7P/2PB4/PP1PQnP1/RNB1K2R b KQ - 1 10",
+      "board_image": "assets/boards/hMI5kmr4_ply_19.png",
+      "previous_move": {
+        "uci": "c4d3",
+        "san": "Bd3"
+      },
+      "actual_move": {
+        "available": true,
+        "detail": {
+          "position_id_after_move": "hMI5kmr4_ply_20",
+          "uci": "e5e2",
+          "san": "Rxe2+",
+          "side": "black",
+          "fullmove_number": 11
+        },
+        "model_rank": 1,
+        "model_probability": 0.752,
+        "model_qualifies_threshold": true,
+        "engine_rank": 11,
+        "engine_score_text": "+8.77"
+      },
+      "actual_continuation": [
+        {
+          "position_id": "hMI5kmr4_ply_20",
+          "uci": "e5e2",
+          "san": "Rxe2+",
+          "side_to_move_after": "white",
+          "fullmove_number": 11
+        },
+        {
+          "position_id": "hMI5kmr4_ply_21",
+          "uci": "d3e2",
+          "san": "Bxe2",
+          "side_to_move_after": "black",
+          "fullmove_number": 11
+        },
+        {
+          "position_id": "hMI5kmr4_ply_22",
+          "uci": "f2h1",
+          "san": "Nxh1",
+          "side_to_move_after": "white",
+          "fullmove_number": 12
+        }
+      ],
+      "complexity": {
+        "score": 13,
+        "high": true,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": 2,
+          "depth_1": 5,
+          "depth_2": 6
+        },
+        "queried_node_count": 8,
+        "inference_status": "success",
+        "error_type": "",
+        "error_message": ""
+      },
+      "model": {
+        "available": true,
+        "win_prob": 0.015,
+        "qualifying_moves": [
+          {
+            "uci": "e5e2",
+            "probability": 0.752
+          },
+          {
+            "uci": "f2h1",
+            "probability": 0.1491
+          }
+        ],
+        "top_moves": [
+          {
+            "rank": 1,
+            "uci": "e5e2",
+            "probability": 0.752,
+            "qualifies": true
+          },
+          {
+            "rank": 2,
+            "uci": "f2h1",
+            "probability": 0.1491,
+            "qualifies": true
+          },
+          {
+            "rank": 3,
+            "uci": "f2d3",
+            "probability": 0.0787,
+            "qualifies": false
+          },
+          {
+            "rank": 4,
+            "uci": "d8e8",
+            "probability": 0.007,
+            "qualifies": false
+          },
+          {
+            "rank": 5,
+            "uci": "c8g4",
+            "probability": 0.0064,
+            "qualifies": false
+          },
+          {
+            "rank": 6,
+            "uci": "d8e7",
+            "probability": 0.003,
+            "qualifies": false
+          },
+          {
+            "rank": 7,
+            "uci": "d8f6",
+            "probability": 0.0007,
+            "qualifies": false
+          },
+          {
+            "rank": 8,
+            "uci": "c8f5",
+            "probability": 0.0005,
+            "qualifies": false
+          },
+          {
+            "rank": 9,
+            "uci": "f2g4",
+            "probability": 0.0005,
+            "qualifies": false
+          },
+          {
+            "rank": 10,
+            "uci": "b8c6",
+            "probability": 0.0003,
+            "qualifies": false
+          }
+        ],
+        "tree_nodes_by_depth": {
+          "0": [
+            {
+              "node_id": "hMI5kmr4_ply_19__root",
+              "parent_node_id": "",
+              "depth": 0,
+              "path_uci": [],
+              "path_probability": 1.0,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "e5e2",
+                  "probability": 0.752
+                },
+                {
+                  "uci": "f2h1",
+                  "probability": 0.1491
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e5e2",
+                  "probability": 0.752,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "f2h1",
+                  "probability": 0.1491,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "f2d3",
+                  "probability": 0.0787,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "d8e8",
+                  "probability": 0.007,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c8g4",
+                  "probability": 0.0064,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.015
+            }
+          ],
+          "1": [
+            {
+              "node_id": "hMI5kmr4_ply_19__e5e2",
+              "parent_node_id": "hMI5kmr4_ply_19__root",
+              "depth": 1,
+              "path_uci": [
+                "e5e2"
+              ],
+              "path_probability": 0.752,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "e1e2",
+                  "probability": 0.5847
+                },
+                {
+                  "uci": "d3e2",
+                  "probability": 0.3995
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e1e2",
+                  "probability": 0.5847,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d3e2",
+                  "probability": 0.3995,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "e1f1",
+                  "probability": 0.0158,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "a1h8",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0248
+            },
+            {
+              "node_id": "hMI5kmr4_ply_19__f2h1",
+              "parent_node_id": "hMI5kmr4_ply_19__root",
+              "depth": 1,
+              "path_uci": [
+                "f2h1"
+              ],
+              "path_probability": 0.1491,
+              "qualifying_move_count": 3,
+              "qualifying_moves": [
+                {
+                  "uci": "d3e4",
+                  "probability": 0.4479
+                },
+                {
+                  "uci": "e2e5",
+                  "probability": 0.3187
+                },
+                {
+                  "uci": "d3h7",
+                  "probability": 0.1137
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d3e4",
+                  "probability": 0.4479,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e2e5",
+                  "probability": 0.3187,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "d3h7",
+                  "probability": 0.1137,
+                  "qualifies": true
+                },
+                {
+                  "rank": 4,
+                  "uci": "b2b4",
+                  "probability": 0.0304,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "h4h5",
+                  "probability": 0.0176,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0303
+            }
+          ],
+          "2": [
+            {
+              "node_id": "hMI5kmr4_ply_19__e5e2__e1e2",
+              "parent_node_id": "hMI5kmr4_ply_19__e5e2",
+              "depth": 2,
+              "path_uci": [
+                "e5e2",
+                "e1e2"
+              ],
+              "path_probability": 0.4396944,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "f2h1",
+                  "probability": 0.826
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "f2h1",
+                  "probability": 0.826,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8e7",
+                  "probability": 0.0829,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "d8e8",
+                  "probability": 0.0406,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c8g4",
+                  "probability": 0.0309,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "f2d3",
+                  "probability": 0.0137,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0085
+            },
+            {
+              "node_id": "hMI5kmr4_ply_19__e5e2__d3e2",
+              "parent_node_id": "hMI5kmr4_ply_19__e5e2",
+              "depth": 2,
+              "path_uci": [
+                "e5e2",
+                "d3e2"
+              ],
+              "path_probability": 0.300424,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "f2h1",
+                  "probability": 0.9595
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "f2h1",
+                  "probability": 0.9595,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8e8",
+                  "probability": 0.0141,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "d8e7",
+                  "probability": 0.0137,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c8g4",
+                  "probability": 0.0042,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "d8f6",
+                  "probability": 0.0041,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0089
+            },
+            {
+              "node_id": "hMI5kmr4_ply_19__f2h1__d3e4",
+              "parent_node_id": "hMI5kmr4_ply_19__f2h1",
+              "depth": 2,
+              "path_uci": [
+                "f2h1",
+                "d3e4"
+              ],
+              "path_probability": 0.06678189,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "d8h4",
+                  "probability": 0.3646
+                },
+                {
+                  "uci": "h1g3",
+                  "probability": 0.3051
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d8h4",
+                  "probability": 0.3646,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "h1g3",
+                  "probability": 0.3051,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "h1f2",
+                  "probability": 0.069,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "d6d5",
+                  "probability": 0.0644,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c8f5",
+                  "probability": 0.0524,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0351
+            },
+            {
+              "node_id": "hMI5kmr4_ply_19__f2h1__e2e5",
+              "parent_node_id": "hMI5kmr4_ply_19__f2h1",
+              "depth": 2,
+              "path_uci": [
+                "f2h1",
+                "e2e5"
+              ],
+              "path_probability": 0.04751817,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "d6e5",
+                  "probability": 0.8927
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d6e5",
+                  "probability": 0.8927,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8h4",
+                  "probability": 0.0726,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "c5f2",
+                  "probability": 0.0133,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "h1f2",
+                  "probability": 0.0058,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "b8c6",
+                  "probability": 0.0049,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0314
+            },
+            {
+              "node_id": "hMI5kmr4_ply_19__f2h1__d3h7",
+              "parent_node_id": "hMI5kmr4_ply_19__f2h1",
+              "depth": 2,
+              "path_uci": [
+                "f2h1",
+                "d3h7"
+              ],
+              "path_probability": 0.01695267,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "g8h7",
+                  "probability": 0.9002
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "g8h7",
+                  "probability": 0.9002,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "g8f8",
+                  "probability": 0.06,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "g8h8",
+                  "probability": 0.0399,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "a8h1",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0216
+            }
+          ]
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [
+          {
+            "rank": 1,
+            "multipv": 1,
+            "uci": "f2d3",
+            "san": "Nxd3+",
+            "depth": 13,
+            "seldepth": 20,
+            "nodes": 178584,
+            "score_cp": 1048,
+            "score_mate": null,
+            "score_text": "+10.48",
+            "pv_uci": [
+              "f2d3",
+              "e1d1",
+              "e5e2",
+              "h4h5",
+              "c8g4",
+              "d1c2"
+            ],
+            "pv_san": "10...Nxd3+ 11. Kd1 Rxe2 12. h5 Bg4 13. Kc2"
+          },
+          {
+            "rank": 2,
+            "multipv": 2,
+            "uci": "c8g4",
+            "san": "Bg4",
+            "depth": 13,
+            "seldepth": 16,
+            "nodes": 178584,
+            "score_cp": 946,
+            "score_mate": null,
+            "score_text": "+9.46",
+            "pv_uci": [
+              "c8g4",
+              "e1g1",
+              "f2d3",
+              "e2e3",
+              "c5e3",
+              "d2e3"
+            ],
+            "pv_san": "10...Bg4 11. O-O Nxd3+ 12. Qe3 Bxe3+ 13. dxe3"
+          },
+          {
+            "rank": 3,
+            "multipv": 3,
+            "uci": "d8e8",
+            "san": "Qe8",
+            "depth": 13,
+            "seldepth": 18,
+            "nodes": 178584,
+            "score_cp": 945,
+            "score_mate": null,
+            "score_text": "+9.45",
+            "pv_uci": [
+              "d8e8",
+              "d3c4",
+              "e5e2",
+              "c4e2",
+              "f2h1",
+              "d2d4"
+            ],
+            "pv_san": "10...Qe8 11. Bc4 Rxe2+ 12. Bxe2 Nxh1 13. d4"
+          },
+          {
+            "rank": 4,
+            "multipv": 4,
+            "uci": "b8c6",
+            "san": "Nc6",
+            "depth": 12,
+            "seldepth": 22,
+            "nodes": 178584,
+            "score_cp": 931,
+            "score_mate": null,
+            "score_text": "+9.31",
+            "pv_uci": [
+              "b8c6",
+              "d3b5",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10...Nc6 11. Bb5 Nxh1 12. d4 Rxe2+ 13. Kxe2"
+          },
+          {
+            "rank": 5,
+            "multipv": 5,
+            "uci": "f2h1",
+            "san": "Nxh1",
+            "depth": 12,
+            "seldepth": 15,
+            "nodes": 178584,
+            "score_cp": 912,
+            "score_mate": null,
+            "score_text": "+9.12",
+            "pv_uci": [
+              "f2h1",
+              "e2e5",
+              "d6e5",
+              "b1a3",
+              "c5f2",
+              "e1d1"
+            ],
+            "pv_san": "10...Nxh1 11. Qxe5 dxe5 12. Na3 Bf2+ 13. Kd1"
+          },
+          {
+            "rank": 6,
+            "multipv": 6,
+            "uci": "d8e7",
+            "san": "Qe7",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 178584,
+            "score_cp": 894,
+            "score_mate": null,
+            "score_text": "+8.94",
+            "pv_uci": [
+              "d8e7",
+              "e2e5",
+              "f2d3",
+              "e1d1",
+              "d3e5",
+              "d2d4"
+            ],
+            "pv_san": "10...Qe7 11. Qxe5 Nxd3+ 12. Kd1 Nxe5 13. d4"
+          },
+          {
+            "rank": 7,
+            "multipv": 7,
+            "uci": "c8e6",
+            "san": "Be6",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 178584,
+            "score_cp": 894,
+            "score_mate": null,
+            "score_text": "+8.94",
+            "pv_uci": [
+              "c8e6",
+              "d3h7",
+              "g8h7",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10...Be6 11. Bxh7+ Kxh7 12. d4 Rxe2+ 13. Kxe2"
+          },
+          {
+            "rank": 8,
+            "multipv": 8,
+            "uci": "h7h5",
+            "san": "h5",
+            "depth": 12,
+            "seldepth": 20,
+            "nodes": 178584,
+            "score_cp": 890,
+            "score_mate": null,
+            "score_text": "+8.90",
+            "pv_uci": [
+              "h7h5",
+              "d3c2",
+              "f2h1",
+              "d2d4",
+              "d8h4",
+              "e1d1"
+            ],
+            "pv_san": "10...h5 11. Bc2 Nxh1 12. d4 Qxh4+ 13. Kd1"
+          },
+          {
+            "rank": 9,
+            "multipv": 9,
+            "uci": "c8d7",
+            "san": "Bd7",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 178584,
+            "score_cp": 883,
+            "score_mate": null,
+            "score_text": "+8.83",
+            "pv_uci": [
+              "c8d7",
+              "d3c4",
+              "e5e2",
+              "e1e2",
+              "f2h1",
+              "d2d4"
+            ],
+            "pv_san": "10...Bd7 11. Bc4 Rxe2+ 12. Kxe2 Nxh1 13. d4"
+          },
+          {
+            "rank": 10,
+            "multipv": 10,
+            "uci": "d8f6",
+            "san": "Qf6",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 178584,
+            "score_cp": 880,
+            "score_mate": null,
+            "score_text": "+8.80",
+            "pv_uci": [
+              "d8f6",
+              "h1f1",
+              "f2d3",
+              "e1d1",
+              "e5e2",
+              "f1f6"
+            ],
+            "pv_san": "10...Qf6 11. Rf1 Nxd3+ 12. Kd1 Rxe2 13. Rxf6"
+          },
+          {
+            "rank": 11,
+            "multipv": 11,
+            "uci": "e5e2",
+            "san": "Rxe2+",
+            "depth": 12,
+            "seldepth": 14,
+            "nodes": 178584,
+            "score_cp": 877,
+            "score_mate": null,
+            "score_text": "+8.77",
+            "pv_uci": [
+              "e5e2",
+              "d3e2",
+              "f2h1",
+              "d2d3",
+              "d8h4",
+              "g2g3"
+            ],
+            "pv_san": "10...Rxe2+ 11. Bxe2 Nxh1 12. d3 Qxh4+ 13. g3"
+          },
+          {
+            "rank": 12,
+            "multipv": 12,
+            "uci": "b8a6",
+            "san": "Na6",
+            "depth": 12,
+            "seldepth": 20,
+            "nodes": 178584,
+            "score_cp": 876,
+            "score_mate": null,
+            "score_text": "+8.76",
+            "pv_uci": [
+              "b8a6",
+              "d3h7",
+              "g8h7",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10...Na6 11. Bxh7+ Kxh7 12. d4 Rxe2+ 13. Kxe2"
+          },
+          {
+            "rank": 13,
+            "multipv": 13,
+            "uci": "h7h6",
+            "san": "h6",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 178584,
+            "score_cp": 874,
+            "score_mate": null,
+            "score_text": "+8.74",
+            "pv_uci": [
+              "h7h6",
+              "d3c4",
+              "e5e2",
+              "c4e2",
+              "f2h1",
+              "d2d4"
+            ],
+            "pv_san": "10...h6 11. Bc4 Rxe2+ 12. Bxe2 Nxh1 13. d4"
+          },
+          {
+            "rank": 14,
+            "multipv": 14,
+            "uci": "b8d7",
+            "san": "Nd7",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 178584,
+            "score_cp": 872,
+            "score_mate": null,
+            "score_text": "+8.72",
+            "pv_uci": [
+              "b8d7",
+              "d3b5",
+              "e5e2",
+              "b5e2"
+            ],
+            "pv_san": "10...Nd7 11. Bb5 Rxe2+ 12. Bxe2"
+          },
+          {
+            "rank": 15,
+            "multipv": 15,
+            "uci": "e5e6",
+            "san": "Re6",
+            "depth": 12,
+            "seldepth": 20,
+            "nodes": 178584,
+            "score_cp": 872,
+            "score_mate": null,
+            "score_text": "+8.72",
+            "pv_uci": [
+              "e5e6",
+              "d3b5",
+              "e6e2",
+              "e1e2",
+              "c8g4",
+              "e2f1"
+            ],
+            "pv_san": "10...Re6 11. Bb5 Rxe2+ 12. Kxe2 Bg4+ 13. Kf1"
+          },
+          {
+            "rank": 16,
+            "multipv": 16,
+            "uci": "g8h8",
+            "san": "Kh8",
+            "depth": 12,
+            "seldepth": 15,
+            "nodes": 178584,
+            "score_cp": 867,
+            "score_mate": null,
+            "score_text": "+8.67",
+            "pv_uci": [
+              "g8h8",
+              "d3c2",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10...Kh8 11. Bc2 Nxh1 12. d4 Rxe2+ 13. Kxe2"
+          },
+          {
+            "rank": 17,
+            "multipv": 17,
+            "uci": "a7a5",
+            "san": "a5",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 178584,
+            "score_cp": 851,
+            "score_mate": null,
+            "score_text": "+8.51",
+            "pv_uci": [
+              "a7a5",
+              "d3b5",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "e1e2"
+            ],
+            "pv_san": "10...a5 11. Bb5 Nxh1 12. d4 Rxe2+ 13. Kxe2"
+          },
+          {
+            "rank": 18,
+            "multipv": 18,
+            "uci": "c5b6",
+            "san": "Bb6",
+            "depth": 12,
+            "seldepth": 15,
+            "nodes": 178584,
+            "score_cp": 843,
+            "score_mate": null,
+            "score_text": "+8.43",
+            "pv_uci": [
+              "c5b6",
+              "d3c4",
+              "e5e2",
+              "c4e2",
+              "f2h1",
+              "d2d4"
+            ],
+            "pv_san": "10...Bb6 11. Bc4 Rxe2+ 12. Bxe2 Nxh1 13. d4"
+          },
+          {
+            "rank": 19,
+            "multipv": 19,
+            "uci": "g7g6",
+            "san": "g6",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 178584,
+            "score_cp": 825,
+            "score_mate": null,
+            "score_text": "+8.25",
+            "pv_uci": [
+              "g7g6",
+              "d3c4",
+              "f2h1",
+              "d2d4",
+              "e5e2",
+              "c4e2"
+            ],
+            "pv_san": "10...g6 11. Bc4 Nxh1 12. d4 Rxe2+ 13. Bxe2"
+          },
+          {
+            "rank": 20,
+            "multipv": 20,
+            "uci": "b7b5",
+            "san": "b5",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 178584,
+            "score_cp": 804,
+            "score_mate": null,
+            "score_text": "+8.04",
+            "pv_uci": [
+              "b7b5",
+              "e1f1",
+              "e5e2",
+              "d3e2",
+              "f2h1",
+              "d2d4"
+            ],
+            "pv_san": "10...b5 11. Kf1 Rxe2 12. Bxe2 Nxh1 13. d4"
+          }
+        ],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": true,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": {
+            "uci": "f2d3",
+            "san": "Nxd3+",
+            "score_cp": 1048,
+            "score_text": "+10.48",
+            "pv_san": "10...Nxd3+ 11. Kd1 Rxe2 12. h5 Bg4 13. Kc2",
+            "maia_rank": 3,
+            "maia_probability": 0.0787,
+            "maia_qualifies_threshold": false,
+            "actual_matches": false
+          }
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": false,
+          "summary": null,
+          "budget_rows": []
+        },
+        "realizability": {
+          "available": true,
+          "summary": {
+            "actual_candidate_available": true,
+            "actual_realizability_score_v0": 53.27,
+            "actual_maia_probability": 0.752,
+            "actual_maia_rank": 1,
+            "engine_best_uci": "d8e7",
+            "engine_best_san": "Qe7",
+            "engine_best_realizability_score_v0": 50.38,
+            "engine_best_maia_probability": 0.003,
+            "engine_best_maia_rank": 6,
+            "top_realizability_uci": "f2d3",
+            "top_realizability_san": "Nxd3+",
+            "top_realizability_score_v0": 87.17,
+            "actual_minus_engine_best_realizability": 2.89,
+            "actual_matches_engine_best": false,
+            "actual_matches_top_realizability": false,
+            "actual_beats_engine_best": true,
+            "candidate_count": 4
+          },
+          "candidates": [
+            {
+              "candidate_uci": "f2d3",
+              "candidate_san": "Nxd3+",
+              "candidate_role": "engine_topk",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": false,
+              "root_rank": 2,
+              "root_value_cp": 1066,
+              "distance_from_best_cp": -95,
+              "viable_threshold_cp": 1037,
+              "acceptable_width_player_d1": 2.5,
+              "acceptable_width_player_mean": 3.25,
+              "acceptable_width_player_min": 1,
+              "acceptable_width_d3": 4.0,
+              "survival_rate_after_opponent": 1.0,
+              "opponent_refutation_density": 0.0,
+              "depth4_survival_rate": 1.0,
+              "unique_burden_plies": 1,
+              "longest_narrow_streak": 1,
+              "deviation_penalty_cp_mean": 41.0,
+              "deviation_penalty_cp_max": 164,
+              "mean_margin_to_viable_cp": 60910.5385,
+              "conversion_horizon_plies": 4,
+              "conversion_success_within_horizon": true,
+              "maia_rank": 3,
+              "maia_probability": 0.0787,
+              "realizability_score_v0": 87.17
+            },
+            {
+              "candidate_uci": "e5e2",
+              "candidate_san": "Rxe2+",
+              "candidate_role": "actual_move",
+              "forced_include_actual": true,
+              "is_actual_move": true,
+              "is_engine_best": false,
+              "root_rank": null,
+              "root_value_cp": 908,
+              "distance_from_best_cp": 63,
+              "viable_threshold_cp": 971,
+              "acceptable_width_player_d1": 2.0,
+              "acceptable_width_player_mean": 1.8,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": 1.5,
+              "survival_rate_after_opponent": 0.6667,
+              "opponent_refutation_density": 0.3333,
+              "depth4_survival_rate": 1.0,
+              "unique_burden_plies": 2,
+              "longest_narrow_streak": 1,
+              "deviation_penalty_cp_mean": 79200.6,
+              "deviation_penalty_cp_max": 99084,
+              "mean_margin_to_viable_cp": 99023.3333,
+              "conversion_horizon_plies": 4,
+              "conversion_success_within_horizon": true,
+              "maia_rank": 1,
+              "maia_probability": 0.752,
+              "realizability_score_v0": 53.27
+            },
+            {
+              "candidate_uci": "d8e7",
+              "candidate_san": "Qe7",
+              "candidate_role": "engine_best",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": true,
+              "root_rank": 1,
+              "root_value_cp": 951,
+              "distance_from_best_cp": 20,
+              "viable_threshold_cp": 971,
+              "acceptable_width_player_d1": 1.25,
+              "acceptable_width_player_mean": 1.625,
+              "acceptable_width_player_min": 1,
+              "acceptable_width_d3": 2.0,
+              "survival_rate_after_opponent": 1.0,
+              "opponent_refutation_density": 0.25,
+              "depth4_survival_rate": 1.0,
+              "unique_burden_plies": 7,
+              "longest_narrow_streak": 2,
+              "deviation_penalty_cp_mean": 12466.0,
+              "deviation_penalty_cp_max": 99046,
+              "mean_margin_to_viable_cp": 30525.3077,
+              "conversion_horizon_plies": 4,
+              "conversion_success_within_horizon": true,
+              "maia_rank": 6,
+              "maia_probability": 0.003,
+              "realizability_score_v0": 50.38
+            },
+            {
+              "candidate_uci": "d8e8",
+              "candidate_san": "Qe8",
+              "candidate_role": "engine_topk",
+              "forced_include_actual": false,
+              "is_actual_move": false,
+              "is_engine_best": false,
+              "root_rank": 3,
+              "root_value_cp": 946,
+              "distance_from_best_cp": 25,
+              "viable_threshold_cp": 971,
+              "acceptable_width_player_d1": 0.75,
+              "acceptable_width_player_mean": 0.8571,
+              "acceptable_width_player_min": 0,
+              "acceptable_width_d3": 1.0,
+              "survival_rate_after_opponent": 0.75,
+              "opponent_refutation_density": 0.25,
+              "depth4_survival_rate": 1.0,
+              "unique_burden_plies": 6,
+              "longest_narrow_streak": 2,
+              "deviation_penalty_cp_mean": 84846.0,
+              "deviation_penalty_cp_max": 99024,
+              "mean_margin_to_viable_cp": 99021.0,
+              "conversion_horizon_plies": 4,
+              "conversion_success_within_horizon": true,
+              "maia_rank": 4,
+              "maia_probability": 0.007,
+              "realizability_score_v0": 39.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "position_id": "hMI5kmr4_ply_20",
+      "label": "11W",
+      "game_id": "hMI5kmr4",
+      "ply_index": 20,
+      "fullmove_number": 11,
+      "side_to_move": "white",
+      "fen": "rnbq2k1/ppp2ppp/3p4/2b5/7P/2PB4/PP1PrnP1/RNB1K2R w KQ - 0 11",
+      "board_image": "assets/boards/hMI5kmr4_ply_20.png",
+      "previous_move": {
+        "uci": "e5e2",
+        "san": "Rxe2+"
+      },
+      "actual_move": {
+        "available": true,
+        "detail": {
+          "position_id_after_move": "hMI5kmr4_ply_21",
+          "uci": "d3e2",
+          "san": "Bxe2",
+          "side": "white",
+          "fullmove_number": 11
+        },
+        "model_rank": 2,
+        "model_probability": 0.3995,
+        "model_qualifies_threshold": true,
+        "engine_rank": 1,
+        "engine_score_text": "-9.19"
+      },
+      "actual_continuation": [
+        {
+          "position_id": "hMI5kmr4_ply_21",
+          "uci": "d3e2",
+          "san": "Bxe2",
+          "side_to_move_after": "black",
+          "fullmove_number": 11
+        },
+        {
+          "position_id": "hMI5kmr4_ply_22",
+          "uci": "f2h1",
+          "san": "Nxh1",
+          "side_to_move_after": "white",
+          "fullmove_number": 12
+        }
+      ],
+      "complexity": {
+        "score": 7,
+        "high": false,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": 2,
+          "depth_1": 2,
+          "depth_2": 3
+        },
+        "queried_node_count": 5,
+        "inference_status": "success",
+        "error_type": "",
+        "error_message": ""
+      },
+      "model": {
+        "available": true,
+        "win_prob": 0.0248,
+        "qualifying_moves": [
+          {
+            "uci": "e1e2",
+            "probability": 0.5847
+          },
+          {
+            "uci": "d3e2",
+            "probability": 0.3995
+          }
+        ],
+        "top_moves": [
+          {
+            "rank": 1,
+            "uci": "e1e2",
+            "probability": 0.5847,
+            "qualifies": true
+          },
+          {
+            "rank": 2,
+            "uci": "d3e2",
+            "probability": 0.3995,
+            "qualifies": true
+          },
+          {
+            "rank": 3,
+            "uci": "e1f1",
+            "probability": 0.0158,
+            "qualifies": false
+          },
+          {
+            "rank": 4,
+            "uci": "a1h8",
+            "probability": 0.0,
+            "qualifies": false
+          }
+        ],
+        "tree_nodes_by_depth": {
+          "0": [
+            {
+              "node_id": "hMI5kmr4_ply_20__root",
+              "parent_node_id": "",
+              "depth": 0,
+              "path_uci": [],
+              "path_probability": 1.0,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "e1e2",
+                  "probability": 0.5847
+                },
+                {
+                  "uci": "d3e2",
+                  "probability": 0.3995
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e1e2",
+                  "probability": 0.5847,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d3e2",
+                  "probability": 0.3995,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "e1f1",
+                  "probability": 0.0158,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "a1h8",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0248
+            }
+          ],
+          "1": [
+            {
+              "node_id": "hMI5kmr4_ply_20__e1e2",
+              "parent_node_id": "hMI5kmr4_ply_20__root",
+              "depth": 1,
+              "path_uci": [
+                "e1e2"
+              ],
+              "path_probability": 0.5847,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "f2h1",
+                  "probability": 0.826
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "f2h1",
+                  "probability": 0.826,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8e7",
+                  "probability": 0.0829,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "d8e8",
+                  "probability": 0.0406,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c8g4",
+                  "probability": 0.0309,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "f2d3",
+                  "probability": 0.0137,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0085
+            },
+            {
+              "node_id": "hMI5kmr4_ply_20__d3e2",
+              "parent_node_id": "hMI5kmr4_ply_20__root",
+              "depth": 1,
+              "path_uci": [
+                "d3e2"
+              ],
+              "path_probability": 0.3995,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "f2h1",
+                  "probability": 0.9595
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "f2h1",
+                  "probability": 0.9595,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8e8",
+                  "probability": 0.0141,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "d8e7",
+                  "probability": 0.0137,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c8g4",
+                  "probability": 0.0042,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "d8f6",
+                  "probability": 0.0041,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0089
+            }
+          ],
+          "2": [
+            {
+              "node_id": "hMI5kmr4_ply_20__e1e2__f2h1",
+              "parent_node_id": "hMI5kmr4_ply_20__e1e2",
+              "depth": 2,
+              "path_uci": [
+                "e1e2",
+                "f2h1"
+              ],
+              "path_probability": 0.4829622,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "b2b4",
+                  "probability": 0.1858
+                },
+                {
+                  "uci": "d3h7",
+                  "probability": 0.11
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "b2b4",
+                  "probability": 0.1858,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d3h7",
+                  "probability": 0.11,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "b1a3",
+                  "probability": 0.0997,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "e2d1",
+                  "probability": 0.0897,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "h4h5",
+                  "probability": 0.0691,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0187
+            },
+            {
+              "node_id": "hMI5kmr4_ply_20__d3e2__f2h1",
+              "parent_node_id": "hMI5kmr4_ply_20__d3e2",
+              "depth": 2,
+              "path_uci": [
+                "d3e2",
+                "f2h1"
+              ],
+              "path_probability": 0.38332025,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "d2d4",
+                  "probability": 0.2841
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d2d4",
+                  "probability": 0.2841,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e1f1",
+                  "probability": 0.0861,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "b2b4",
+                  "probability": 0.0757,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "e2c4",
+                  "probability": 0.0646,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "b1a3",
+                  "probability": 0.058,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0243
+            }
+          ]
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [
+          {
+            "rank": 1,
+            "multipv": 1,
+            "uci": "d3e2",
+            "san": "Bxe2",
+            "depth": 19,
+            "seldepth": 23,
+            "nodes": 185827,
+            "score_cp": -919,
+            "score_mate": null,
+            "score_text": "-9.19",
+            "pv_uci": [
+              "d3e2",
+              "f2h1",
+              "d2d3",
+              "d8h4",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "11. Bxe2 Nxh1 12. d3 Qxh4+ 13. Kd1 Nf2+"
+          },
+          {
+            "rank": 2,
+            "multipv": 2,
+            "uci": "e1f1",
+            "san": "Kf1",
+            "depth": 19,
+            "seldepth": 23,
+            "nodes": 185827,
+            "score_cp": null,
+            "score_mate": -8,
+            "score_text": "M-8",
+            "pv_uci": [
+              "e1f1",
+              "f2d3",
+              "f1e2",
+              "d8e8",
+              "e2f3",
+              "c8g4"
+            ],
+            "pv_san": "11. Kf1 Nxd3 12. Kxe2 Qe8+ 13. Kf3 Bg4+"
+          },
+          {
+            "rank": 3,
+            "multipv": 3,
+            "uci": "e1e2",
+            "san": "Kxe2",
+            "depth": 19,
+            "seldepth": 11,
+            "nodes": 185827,
+            "score_cp": null,
+            "score_mate": -5,
+            "score_text": "M-5",
+            "pv_uci": [
+              "e1e2",
+              "d8e8",
+              "e2f1",
+              "f2d3",
+              "g2g4",
+              "e8e1"
+            ],
+            "pv_san": "11. Kxe2 Qe8+ 12. Kf1 Nxd3 13. g4 Qe1+"
+          }
+        ],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": false,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": {
+            "uci": "d3e2",
+            "san": "Bxe2",
+            "score_cp": -919,
+            "score_text": "-9.19",
+            "pv_san": "11. Bxe2 Nxh1 12. d3 Qxh4+ 13. Kd1 Nf2+",
+            "maia_rank": 2,
+            "maia_probability": 0.3995,
+            "maia_qualifies_threshold": true,
+            "actual_matches": true
+          }
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": false,
+          "summary": null,
+          "budget_rows": []
+        },
+        "realizability": {
+          "available": false,
+          "summary": null,
+          "candidates": []
+        }
+      }
+    },
+    {
+      "position_id": "hMI5kmr4_ply_21",
+      "label": "11B",
+      "game_id": "hMI5kmr4",
+      "ply_index": 21,
+      "fullmove_number": 11,
+      "side_to_move": "black",
+      "fen": "rnbq2k1/ppp2ppp/3p4/2b5/7P/2P5/PP1PBnP1/RNB1K2R b KQ - 0 11",
+      "board_image": "assets/boards/hMI5kmr4_ply_21.png",
+      "previous_move": {
+        "uci": "d3e2",
+        "san": "Bxe2"
+      },
+      "actual_move": {
+        "available": true,
+        "detail": {
+          "position_id_after_move": "hMI5kmr4_ply_22",
+          "uci": "f2h1",
+          "san": "Nxh1",
+          "side": "black",
+          "fullmove_number": 12
+        },
+        "model_rank": 1,
+        "model_probability": 0.9595,
+        "model_qualifies_threshold": true,
+        "engine_rank": 1,
+        "engine_score_text": "+8.41"
+      },
+      "actual_continuation": [
+        {
+          "position_id": "hMI5kmr4_ply_22",
+          "uci": "f2h1",
+          "san": "Nxh1",
+          "side_to_move_after": "white",
+          "fullmove_number": 12
+        }
+      ],
+      "complexity": {
+        "score": 4,
+        "high": false,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": 1,
+          "depth_1": 1,
+          "depth_2": 2
+        },
+        "queried_node_count": 3,
+        "inference_status": "success",
+        "error_type": "",
+        "error_message": ""
+      },
+      "model": {
+        "available": true,
+        "win_prob": 0.0089,
+        "qualifying_moves": [
+          {
+            "uci": "f2h1",
+            "probability": 0.9595
+          }
+        ],
+        "top_moves": [
+          {
+            "rank": 1,
+            "uci": "f2h1",
+            "probability": 0.9595,
+            "qualifies": true
+          },
+          {
+            "rank": 2,
+            "uci": "d8e8",
+            "probability": 0.0141,
+            "qualifies": false
+          },
+          {
+            "rank": 3,
+            "uci": "d8e7",
+            "probability": 0.0137,
+            "qualifies": false
+          },
+          {
+            "rank": 4,
+            "uci": "c8g4",
+            "probability": 0.0042,
+            "qualifies": false
+          },
+          {
+            "rank": 5,
+            "uci": "d8f6",
+            "probability": 0.0041,
+            "qualifies": false
+          },
+          {
+            "rank": 6,
+            "uci": "f2e4",
+            "probability": 0.0009,
+            "qualifies": false
+          },
+          {
+            "rank": 7,
+            "uci": "b8c6",
+            "probability": 0.0008,
+            "qualifies": false
+          },
+          {
+            "rank": 8,
+            "uci": "f2g4",
+            "probability": 0.0006,
+            "qualifies": false
+          },
+          {
+            "rank": 9,
+            "uci": "c8f5",
+            "probability": 0.0005,
+            "qualifies": false
+          },
+          {
+            "rank": 10,
+            "uci": "d8h4",
+            "probability": 0.0005,
+            "qualifies": false
+          }
+        ],
+        "tree_nodes_by_depth": {
+          "0": [
+            {
+              "node_id": "hMI5kmr4_ply_21__root",
+              "parent_node_id": "",
+              "depth": 0,
+              "path_uci": [],
+              "path_probability": 1.0,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "f2h1",
+                  "probability": 0.9595
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "f2h1",
+                  "probability": 0.9595,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "d8e8",
+                  "probability": 0.0141,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "d8e7",
+                  "probability": 0.0137,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c8g4",
+                  "probability": 0.0042,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "d8f6",
+                  "probability": 0.0041,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0089
+            }
+          ],
+          "1": [
+            {
+              "node_id": "hMI5kmr4_ply_21__f2h1",
+              "parent_node_id": "hMI5kmr4_ply_21__root",
+              "depth": 1,
+              "path_uci": [
+                "f2h1"
+              ],
+              "path_probability": 0.9595,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "d2d4",
+                  "probability": 0.2841
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d2d4",
+                  "probability": 0.2841,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e1f1",
+                  "probability": 0.0861,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "b2b4",
+                  "probability": 0.0757,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "e2c4",
+                  "probability": 0.0646,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "b1a3",
+                  "probability": 0.058,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0243
+            }
+          ],
+          "2": [
+            {
+              "node_id": "hMI5kmr4_ply_21__f2h1__d2d4",
+              "parent_node_id": "hMI5kmr4_ply_21__f2h1",
+              "depth": 2,
+              "path_uci": [
+                "f2h1",
+                "d2d4"
+              ],
+              "path_probability": 0.27259395,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "d8h4",
+                  "probability": 0.4607
+                },
+                {
+                  "uci": "c5b6",
+                  "probability": 0.43
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d8h4",
+                  "probability": 0.4607,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "c5b6",
+                  "probability": 0.43,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "h1g3",
+                  "probability": 0.0558,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "d8e8",
+                  "probability": 0.0175,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c5d4",
+                  "probability": 0.0168,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0166
+            }
+          ]
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [
+          {
+            "rank": 1,
+            "multipv": 1,
+            "uci": "f2h1",
+            "san": "Nxh1",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 841,
+            "score_mate": null,
+            "score_text": "+8.41",
+            "pv_uci": [
+              "f2h1",
+              "d2d4",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1"
+            ],
+            "pv_san": "11...Nxh1 12. d4 Qxh4+ 13. g3 Qxg3+ 14. Kd1"
+          },
+          {
+            "rank": 2,
+            "multipv": 2,
+            "uci": "d8e8",
+            "san": "Qe8",
+            "depth": 12,
+            "seldepth": 20,
+            "nodes": 189304,
+            "score_cp": 823,
+            "score_mate": null,
+            "score_text": "+8.23",
+            "pv_uci": [
+              "d8e8",
+              "d2d4",
+              "f2h1",
+              "b1d2",
+              "c8g4",
+              "d2f3"
+            ],
+            "pv_san": "11...Qe8 12. d4 Nxh1 13. Nd2 Bg4 14. Nf3"
+          },
+          {
+            "rank": 3,
+            "multipv": 3,
+            "uci": "c8g4",
+            "san": "Bg4",
+            "depth": 12,
+            "seldepth": 19,
+            "nodes": 189304,
+            "score_cp": 806,
+            "score_mate": null,
+            "score_text": "+8.06",
+            "pv_uci": [
+              "c8g4",
+              "e2g4",
+              "f2g4",
+              "d2d4",
+              "b8d7",
+              "h4h5"
+            ],
+            "pv_san": "11...Bg4 12. Bxg4 Nxg4 13. d4 Nd7 14. h5"
+          },
+          {
+            "rank": 4,
+            "multipv": 4,
+            "uci": "d8e7",
+            "san": "Qe7",
+            "depth": 12,
+            "seldepth": 22,
+            "nodes": 189304,
+            "score_cp": 794,
+            "score_mate": null,
+            "score_text": "+7.94",
+            "pv_uci": [
+              "d8e7",
+              "d2d4",
+              "f2h1",
+              "c1g5",
+              "f7f6",
+              "b1d2"
+            ],
+            "pv_san": "11...Qe7 12. d4 Nxh1 13. Bg5 f6 14. Nd2"
+          },
+          {
+            "rank": 5,
+            "multipv": 5,
+            "uci": "h7h6",
+            "san": "h6",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 189304,
+            "score_cp": 780,
+            "score_mate": null,
+            "score_text": "+7.80",
+            "pv_uci": [
+              "h7h6",
+              "h1f1",
+              "f2d3",
+              "e2d3",
+              "c8g4",
+              "f1f3"
+            ],
+            "pv_san": "11...h6 12. Rf1 Nd3+ 13. Bxd3 Bg4 14. Rf3"
+          },
+          {
+            "rank": 6,
+            "multipv": 6,
+            "uci": "d6d5",
+            "san": "d5",
+            "depth": 12,
+            "seldepth": 22,
+            "nodes": 189304,
+            "score_cp": 770,
+            "score_mate": null,
+            "score_text": "+7.70",
+            "pv_uci": [
+              "d6d5",
+              "h1f1",
+              "f2d3",
+              "e2d3",
+              "c8g4",
+              "f1f3"
+            ],
+            "pv_san": "11...d5 12. Rf1 Nd3+ 13. Bxd3 Bg4 14. Rf3"
+          },
+          {
+            "rank": 7,
+            "multipv": 7,
+            "uci": "c8d7",
+            "san": "Bd7",
+            "depth": 12,
+            "seldepth": 22,
+            "nodes": 189304,
+            "score_cp": 761,
+            "score_mate": null,
+            "score_text": "+7.61",
+            "pv_uci": [
+              "c8d7",
+              "h1f1",
+              "f2d3",
+              "e1d1",
+              "d3c1",
+              "d2d4"
+            ],
+            "pv_san": "11...Bd7 12. Rf1 Nd3+ 13. Kd1 Nxc1 14. d4"
+          },
+          {
+            "rank": 8,
+            "multipv": 8,
+            "uci": "h7h5",
+            "san": "h5",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 760,
+            "score_mate": null,
+            "score_text": "+7.60",
+            "pv_uci": [
+              "h7h5",
+              "d2d4",
+              "f2h1",
+              "c1g5",
+              "d8e8",
+              "b1d2"
+            ],
+            "pv_san": "11...h5 12. d4 Nxh1 13. Bg5 Qe8 14. Nd2"
+          },
+          {
+            "rank": 9,
+            "multipv": 9,
+            "uci": "a7a5",
+            "san": "a5",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 189304,
+            "score_cp": 754,
+            "score_mate": null,
+            "score_text": "+7.54",
+            "pv_uci": [
+              "a7a5",
+              "h1f1",
+              "f2d3",
+              "e1d1",
+              "d3c1",
+              "e2f3"
+            ],
+            "pv_san": "11...a5 12. Rf1 Nd3+ 13. Kd1 Nxc1 14. Bf3"
+          },
+          {
+            "rank": 10,
+            "multipv": 10,
+            "uci": "c8e6",
+            "san": "Be6",
+            "depth": 12,
+            "seldepth": 15,
+            "nodes": 189304,
+            "score_cp": 754,
+            "score_mate": null,
+            "score_text": "+7.54",
+            "pv_uci": [
+              "c8e6",
+              "h1f1",
+              "b8c6",
+              "d2d4",
+              "f2e4",
+              "c1f4"
+            ],
+            "pv_san": "11...Be6 12. Rf1 Nc6 13. d4 Ne4 14. Bf4"
+          },
+          {
+            "rank": 11,
+            "multipv": 11,
+            "uci": "a7a6",
+            "san": "a6",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 189304,
+            "score_cp": 747,
+            "score_mate": null,
+            "score_text": "+7.47",
+            "pv_uci": [
+              "a7a6",
+              "h1f1",
+              "f2d3",
+              "e1d1",
+              "d3c1",
+              "e2h5"
+            ],
+            "pv_san": "11...a6 12. Rf1 Nd3+ 13. Kd1 Nxc1 14. Bh5"
+          },
+          {
+            "rank": 12,
+            "multipv": 12,
+            "uci": "c8f5",
+            "san": "Bf5",
+            "depth": 12,
+            "seldepth": 14,
+            "nodes": 189304,
+            "score_cp": 745,
+            "score_mate": null,
+            "score_text": "+7.45",
+            "pv_uci": [
+              "c8f5",
+              "h1f1",
+              "f5d3",
+              "e2d3",
+              "f2d3",
+              "e1d1"
+            ],
+            "pv_san": "11...Bf5 12. Rf1 Bd3 13. Bxd3 Nxd3+ 14. Kd1"
+          },
+          {
+            "rank": 13,
+            "multipv": 13,
+            "uci": "g8h8",
+            "san": "Kh8",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 738,
+            "score_mate": null,
+            "score_text": "+7.38",
+            "pv_uci": [
+              "g8h8",
+              "d2d3",
+              "f2h1",
+              "c1g5",
+              "d8e8"
+            ],
+            "pv_san": "11...Kh8 12. d3 Nxh1 13. Bg5 Qe8"
+          },
+          {
+            "rank": 14,
+            "multipv": 14,
+            "uci": "c8h3",
+            "san": "Bh3",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 723,
+            "score_mate": null,
+            "score_text": "+7.23",
+            "pv_uci": [
+              "c8h3",
+              "h1h3",
+              "f2h3",
+              "d2d3",
+              "d8e8"
+            ],
+            "pv_san": "11...Bh3 12. Rxh3 Nxh3 13. d3 Qe8"
+          },
+          {
+            "rank": 15,
+            "multipv": 15,
+            "uci": "c7c6",
+            "san": "c6",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 721,
+            "score_mate": null,
+            "score_text": "+7.21",
+            "pv_uci": [
+              "c7c6",
+              "h1f1",
+              "f2d3",
+              "e2d3",
+              "c8g4",
+              "d3h7"
+            ],
+            "pv_san": "11...c6 12. Rf1 Nd3+ 13. Bxd3 Bg4 14. Bxh7+"
+          },
+          {
+            "rank": 16,
+            "multipv": 16,
+            "uci": "f2d3",
+            "san": "Nd3+",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 718,
+            "score_mate": null,
+            "score_text": "+7.18",
+            "pv_uci": [
+              "f2d3",
+              "e2d3",
+              "c8g4",
+              "d3e4",
+              "d8e8",
+              "d2d3"
+            ],
+            "pv_san": "11...Nd3+ 12. Bxd3 Bg4 13. Be4 Qe8 14. d3"
+          },
+          {
+            "rank": 17,
+            "multipv": 17,
+            "uci": "f7f6",
+            "san": "f6",
+            "depth": 11,
+            "seldepth": 16,
+            "nodes": 189304,
+            "score_cp": 720,
+            "score_mate": null,
+            "score_text": "+7.20",
+            "pv_uci": [
+              "f7f6",
+              "h1f1",
+              "f2d3",
+              "e2d3",
+              "d6d5",
+              "f1f4"
+            ],
+            "pv_san": "11...f6 12. Rf1 Nd3+ 13. Bxd3 d5 14. Rf4"
+          },
+          {
+            "rank": 18,
+            "multipv": 18,
+            "uci": "g7g6",
+            "san": "g6",
+            "depth": 11,
+            "seldepth": 22,
+            "nodes": 189304,
+            "score_cp": 708,
+            "score_mate": null,
+            "score_text": "+7.08",
+            "pv_uci": [
+              "g7g6",
+              "d2d4",
+              "f2h1",
+              "c1g5",
+              "f7f6",
+              "e2f3"
+            ],
+            "pv_san": "11...g6 12. d4 Nxh1 13. Bg5 f6 14. Bf3"
+          },
+          {
+            "rank": 19,
+            "multipv": 19,
+            "uci": "f2e4",
+            "san": "Ne4",
+            "depth": 11,
+            "seldepth": 13,
+            "nodes": 189304,
+            "score_cp": 681,
+            "score_mate": null,
+            "score_text": "+6.81",
+            "pv_uci": [
+              "f2e4",
+              "d2d4",
+              "e4g3",
+              "d4c5",
+              "g3h1",
+              "c1g5"
+            ],
+            "pv_san": "11...Ne4 12. d4 Ng3 13. dxc5 Nxh1 14. Bg5"
+          },
+          {
+            "rank": 20,
+            "multipv": 20,
+            "uci": "d8f8",
+            "san": "Qf8",
+            "depth": 11,
+            "seldepth": 22,
+            "nodes": 189304,
+            "score_cp": 661,
+            "score_mate": null,
+            "score_text": "+6.61",
+            "pv_uci": [
+              "d8f8",
+              "e1g1",
+              "f2d3",
+              "g1h1",
+              "d3c1",
+              "e2c4"
+            ],
+            "pv_san": "11...Qf8 12. O-O Nd3+ 13. Kh1 Nxc1 14. Bc4"
+          }
+        ],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": false,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": {
+            "uci": "f2h1",
+            "san": "Nxh1",
+            "score_cp": 841,
+            "score_text": "+8.41",
+            "pv_san": "11...Nxh1 12. d4 Qxh4+ 13. g3 Qxg3+ 14. Kd1",
+            "maia_rank": 1,
+            "maia_probability": 0.9595,
+            "maia_qualifies_threshold": true,
+            "actual_matches": true
+          }
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": false,
+          "summary": null,
+          "budget_rows": []
+        },
+        "realizability": {
+          "available": false,
+          "summary": null,
+          "candidates": []
+        }
+      }
+    },
+    {
+      "position_id": "hMI5kmr4_ply_22",
+      "label": "12W",
+      "game_id": "hMI5kmr4",
+      "ply_index": 22,
+      "fullmove_number": 12,
+      "side_to_move": "white",
+      "fen": "rnbq2k1/ppp2ppp/3p4/2b5/7P/2P5/PP1PB1P1/RNB1K2n w Q - 0 12",
+      "board_image": "assets/boards/hMI5kmr4_ply_22.png",
+      "previous_move": {
+        "uci": "f2h1",
+        "san": "Nxh1"
+      },
+      "actual_move": {
+        "available": false,
+        "detail": null,
+        "model_rank": null,
+        "model_probability": null,
+        "model_qualifies_threshold": null,
+        "engine_rank": null,
+        "engine_score_text": null
+      },
+      "actual_continuation": [],
+      "complexity": {
+        "score": 8,
+        "high": false,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": 1,
+          "depth_1": 2,
+          "depth_2": 5
+        },
+        "queried_node_count": 4,
+        "inference_status": "success",
+        "error_type": "",
+        "error_message": ""
+      },
+      "model": {
+        "available": true,
+        "win_prob": 0.0243,
+        "qualifying_moves": [
+          {
+            "uci": "d2d4",
+            "probability": 0.2841
+          }
+        ],
+        "top_moves": [
+          {
+            "rank": 1,
+            "uci": "d2d4",
+            "probability": 0.2841,
+            "qualifies": true
+          },
+          {
+            "rank": 2,
+            "uci": "e1f1",
+            "probability": 0.0861,
+            "qualifies": false
+          },
+          {
+            "rank": 3,
+            "uci": "b2b4",
+            "probability": 0.0757,
+            "qualifies": false
+          },
+          {
+            "rank": 4,
+            "uci": "e2c4",
+            "probability": 0.0646,
+            "qualifies": false
+          },
+          {
+            "rank": 5,
+            "uci": "b1a3",
+            "probability": 0.058,
+            "qualifies": false
+          },
+          {
+            "rank": 6,
+            "uci": "d2d3",
+            "probability": 0.0529,
+            "qualifies": false
+          },
+          {
+            "rank": 7,
+            "uci": "e2f3",
+            "probability": 0.0441,
+            "qualifies": false
+          },
+          {
+            "rank": 8,
+            "uci": "h4h5",
+            "probability": 0.0382,
+            "qualifies": false
+          },
+          {
+            "rank": 9,
+            "uci": "e2h5",
+            "probability": 0.0375,
+            "qualifies": false
+          },
+          {
+            "rank": 10,
+            "uci": "e1d1",
+            "probability": 0.0332,
+            "qualifies": false
+          }
+        ],
+        "tree_nodes_by_depth": {
+          "0": [
+            {
+              "node_id": "hMI5kmr4_ply_22__root",
+              "parent_node_id": "",
+              "depth": 0,
+              "path_uci": [],
+              "path_probability": 1.0,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "d2d4",
+                  "probability": 0.2841
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d2d4",
+                  "probability": 0.2841,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "e1f1",
+                  "probability": 0.0861,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "b2b4",
+                  "probability": 0.0757,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "e2c4",
+                  "probability": 0.0646,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "b1a3",
+                  "probability": 0.058,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0243
+            }
+          ],
+          "1": [
+            {
+              "node_id": "hMI5kmr4_ply_22__d2d4",
+              "parent_node_id": "hMI5kmr4_ply_22__root",
+              "depth": 1,
+              "path_uci": [
+                "d2d4"
+              ],
+              "path_probability": 0.2841,
+              "qualifying_move_count": 2,
+              "qualifying_moves": [
+                {
+                  "uci": "d8h4",
+                  "probability": 0.4607
+                },
+                {
+                  "uci": "c5b6",
+                  "probability": 0.43
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "d8h4",
+                  "probability": 0.4607,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "c5b6",
+                  "probability": 0.43,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "h1g3",
+                  "probability": 0.0558,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "d8e8",
+                  "probability": 0.0175,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "c5d4",
+                  "probability": 0.0168,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0166
+            }
+          ],
+          "2": [
+            {
+              "node_id": "hMI5kmr4_ply_22__d2d4__d8h4",
+              "parent_node_id": "hMI5kmr4_ply_22__d2d4",
+              "depth": 2,
+              "path_uci": [
+                "d2d4",
+                "d8h4"
+              ],
+              "path_probability": 0.13088487,
+              "qualifying_move_count": 4,
+              "qualifying_moves": [
+                {
+                  "uci": "e1d2",
+                  "probability": 0.4237
+                },
+                {
+                  "uci": "g2g3",
+                  "probability": 0.2255
+                },
+                {
+                  "uci": "e1d1",
+                  "probability": 0.1999
+                },
+                {
+                  "uci": "e1f1",
+                  "probability": 0.1508
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "e1d2",
+                  "probability": 0.4237,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "g2g3",
+                  "probability": 0.2255,
+                  "qualifies": true
+                },
+                {
+                  "rank": 3,
+                  "uci": "e1d1",
+                  "probability": 0.1999,
+                  "qualifies": true
+                },
+                {
+                  "rank": 4,
+                  "uci": "e1f1",
+                  "probability": 0.1508,
+                  "qualifies": true
+                },
+                {
+                  "rank": 5,
+                  "uci": "a1h8",
+                  "probability": 0.0,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0373
+            },
+            {
+              "node_id": "hMI5kmr4_ply_22__d2d4__c5b6",
+              "parent_node_id": "hMI5kmr4_ply_22__d2d4",
+              "depth": 2,
+              "path_uci": [
+                "d2d4",
+                "c5b6"
+              ],
+              "path_probability": 0.122163,
+              "qualifying_move_count": 1,
+              "qualifying_moves": [
+                {
+                  "uci": "c1g5",
+                  "probability": 0.4086
+                }
+              ],
+              "top_moves": [
+                {
+                  "rank": 1,
+                  "uci": "c1g5",
+                  "probability": 0.4086,
+                  "qualifies": true
+                },
+                {
+                  "rank": 2,
+                  "uci": "b1d2",
+                  "probability": 0.0737,
+                  "qualifies": false
+                },
+                {
+                  "rank": 3,
+                  "uci": "e1f1",
+                  "probability": 0.071,
+                  "qualifies": false
+                },
+                {
+                  "rank": 4,
+                  "uci": "c1e3",
+                  "probability": 0.0532,
+                  "qualifies": false
+                },
+                {
+                  "rank": 5,
+                  "uci": "b1a3",
+                  "probability": 0.0428,
+                  "qualifies": false
+                }
+              ],
+              "win_prob": 0.0236
+            }
+          ]
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [
+          {
+            "rank": 1,
+            "multipv": 1,
+            "uci": "d2d4",
+            "san": "d4",
+            "depth": 13,
+            "seldepth": 18,
+            "nodes": 175956,
+            "score_cp": -884,
+            "score_mate": null,
+            "score_text": "-8.84",
+            "pv_uci": [
+              "d2d4",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. d4 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 2,
+            "multipv": 2,
+            "uci": "d2d3",
+            "san": "d3",
+            "depth": 13,
+            "seldepth": 15,
+            "nodes": 175956,
+            "score_cp": -886,
+            "score_mate": null,
+            "score_text": "-8.86",
+            "pv_uci": [
+              "d2d3",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. d3 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 3,
+            "multipv": 3,
+            "uci": "e1d1",
+            "san": "Kd1",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -912,
+            "score_mate": null,
+            "score_text": "-9.12",
+            "pv_uci": [
+              "e1d1",
+              "d8h4",
+              "e2f3",
+              "b8c6",
+              "d2d4",
+              "h1f2"
+            ],
+            "pv_san": "12. Kd1 Qxh4 13. Bf3 Nc6 14. d4 Nf2+"
+          },
+          {
+            "rank": 4,
+            "multipv": 4,
+            "uci": "b2b4",
+            "san": "b4",
+            "depth": 13,
+            "seldepth": 19,
+            "nodes": 175956,
+            "score_cp": -947,
+            "score_mate": null,
+            "score_text": "-9.47",
+            "pv_uci": [
+              "b2b4",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. b4 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 5,
+            "multipv": 5,
+            "uci": "g2g4",
+            "san": "g4",
+            "depth": 13,
+            "seldepth": 23,
+            "nodes": 175956,
+            "score_cp": -956,
+            "score_mate": null,
+            "score_text": "-9.56",
+            "pv_uci": [
+              "g2g4",
+              "d8h4",
+              "e1d1",
+              "b8c6",
+              "d1c2",
+              "c8e6"
+            ],
+            "pv_san": "12. g4 Qxh4+ 13. Kd1 Nc6 14. Kc2 Be6"
+          },
+          {
+            "rank": 6,
+            "multipv": 6,
+            "uci": "b2b3",
+            "san": "b3",
+            "depth": 13,
+            "seldepth": 18,
+            "nodes": 175956,
+            "score_cp": -957,
+            "score_mate": null,
+            "score_text": "-9.57",
+            "pv_uci": [
+              "b2b3",
+              "b8c6",
+              "d2d4",
+              "d8h4",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. b3 Nc6 13. d4 Qxh4+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 7,
+            "multipv": 7,
+            "uci": "c3c4",
+            "san": "c4",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -988,
+            "score_mate": null,
+            "score_text": "-9.88",
+            "pv_uci": [
+              "c3c4",
+              "d8h4",
+              "e1d1",
+              "h1f2",
+              "d1e1",
+              "f2d3"
+            ],
+            "pv_san": "12. c4 Qxh4+ 13. Kd1 Nf2+ 14. Ke1 Nd3+"
+          },
+          {
+            "rank": 8,
+            "multipv": 8,
+            "uci": "e2f1",
+            "san": "Bf1",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -991,
+            "score_mate": null,
+            "score_text": "-9.91",
+            "pv_uci": [
+              "e2f1",
+              "d8h4",
+              "e1d1",
+              "c8g4",
+              "d1c2",
+              "b8d7"
+            ],
+            "pv_san": "12. Bf1 Qxh4+ 13. Kd1 Bg4+ 14. Kc2 Nd7"
+          },
+          {
+            "rank": 9,
+            "multipv": 9,
+            "uci": "a2a4",
+            "san": "a4",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -1034,
+            "score_mate": null,
+            "score_text": "-10.34",
+            "pv_uci": [
+              "a2a4",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. a4 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 10,
+            "multipv": 10,
+            "uci": "b1a3",
+            "san": "Na3",
+            "depth": 13,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -1052,
+            "score_mate": null,
+            "score_text": "-10.52",
+            "pv_uci": [
+              "b1a3",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "h1f2"
+            ],
+            "pv_san": "12. Na3 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+"
+          },
+          {
+            "rank": 11,
+            "multipv": 11,
+            "uci": "g2g3",
+            "san": "g3",
+            "depth": 12,
+            "seldepth": 18,
+            "nodes": 175956,
+            "score_cp": -944,
+            "score_mate": null,
+            "score_text": "-9.44",
+            "pv_uci": [
+              "g2g3",
+              "d8e8",
+              "c3c4",
+              "c8g4",
+              "b1c3",
+              "h1g3"
+            ],
+            "pv_san": "12. g3 Qe8 13. c4 Bg4 14. Nc3 Nxg3"
+          },
+          {
+            "rank": 12,
+            "multipv": 12,
+            "uci": "h4h5",
+            "san": "h5",
+            "depth": 12,
+            "seldepth": 16,
+            "nodes": 175956,
+            "score_cp": -948,
+            "score_mate": null,
+            "score_text": "-9.48",
+            "pv_uci": [
+              "h4h5",
+              "d8h4",
+              "g2g3",
+              "h4g3",
+              "e1d1",
+              "b8c6"
+            ],
+            "pv_san": "12. h5 Qh4+ 13. g3 Qxg3+ 14. Kd1 Nc6"
+          },
+          {
+            "rank": 13,
+            "multipv": 13,
+            "uci": "e2d3",
+            "san": "Bd3",
+            "depth": 12,
+            "seldepth": 21,
+            "nodes": 175956,
+            "score_cp": -1068,
+            "score_mate": null,
+            "score_text": "-10.68",
+            "pv_uci": [
+              "e2d3",
+              "d8e8",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "f2d3"
+            ],
+            "pv_san": "12. Bd3 Qe8+ 13. Kd1 Nf2+ 14. Kc2 Nxd3"
+          },
+          {
+            "rank": 14,
+            "multipv": 14,
+            "uci": "e2a6",
+            "san": "Ba6",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 175956,
+            "score_cp": -1152,
+            "score_mate": null,
+            "score_text": "-11.52",
+            "pv_uci": [
+              "e2a6",
+              "d8e8",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "b8a6"
+            ],
+            "pv_san": "12. Ba6 Qe8+ 13. Kd1 Nf2+ 14. Kc2 Nxa6"
+          },
+          {
+            "rank": 15,
+            "multipv": 15,
+            "uci": "e2c4",
+            "san": "Bc4",
+            "depth": 12,
+            "seldepth": 23,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -11,
+            "score_text": "M-11",
+            "pv_uci": [
+              "e2c4",
+              "d8h4",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "h4c4"
+            ],
+            "pv_san": "12. Bc4 Qxh4+ 13. Kd1 Nf2+ 14. Kc2 Qxc4"
+          },
+          {
+            "rank": 16,
+            "multipv": 16,
+            "uci": "e2g4",
+            "san": "Bg4",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -8,
+            "score_text": "M-8",
+            "pv_uci": [
+              "e2g4",
+              "d8e8",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "e8e4"
+            ],
+            "pv_san": "12. Bg4 Qe8+ 13. Kd1 Nf2+ 14. Kc2 Qe4+"
+          },
+          {
+            "rank": 17,
+            "multipv": 17,
+            "uci": "a2a3",
+            "san": "a3",
+            "depth": 12,
+            "seldepth": 17,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -8,
+            "score_text": "M-8",
+            "pv_uci": [
+              "a2a3",
+              "d8h4",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "h4e4"
+            ],
+            "pv_san": "12. a3 Qxh4+ 13. Kd1 Nf2+ 14. Kc2 Qe4+"
+          },
+          {
+            "rank": 18,
+            "multipv": 18,
+            "uci": "e2h5",
+            "san": "Bh5",
+            "depth": 12,
+            "seldepth": 13,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -6,
+            "score_text": "M-6",
+            "pv_uci": [
+              "e2h5",
+              "d8h4",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "h4e4"
+            ],
+            "pv_san": "12. Bh5 Qxh4+ 13. Kd1 Nf2+ 14. Kc2 Qe4+"
+          },
+          {
+            "rank": 19,
+            "multipv": 19,
+            "uci": "e1f1",
+            "san": "Kf1",
+            "depth": 12,
+            "seldepth": 13,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -6,
+            "score_text": "M-6",
+            "pv_uci": [
+              "e1f1",
+              "d8h4",
+              "g2g3",
+              "h1g3",
+              "f1g2",
+              "h4h3"
+            ],
+            "pv_san": "12. Kf1 Qxh4 13. g3 Nxg3+ 14. Kg2 Qh3+"
+          },
+          {
+            "rank": 20,
+            "multipv": 20,
+            "uci": "e2f3",
+            "san": "Bf3",
+            "depth": 12,
+            "seldepth": 13,
+            "nodes": 175956,
+            "score_cp": null,
+            "score_mate": -6,
+            "score_text": "M-6",
+            "pv_uci": [
+              "e2f3",
+              "d8e8",
+              "e1d1",
+              "h1f2",
+              "d1c2",
+              "c8f5"
+            ],
+            "pv_san": "12. Bf3 Qe8+ 13. Kd1 Nf2+ 14. Kc2 Bf5+"
+          }
+        ],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": false,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": {
+            "uci": "d2d4",
+            "san": "d4",
+            "score_cp": -884,
+            "score_text": "-8.84",
+            "pv_san": "12. d4 Qxh4+ 13. g3 Qxg3+ 14. Kd1 Nf2+",
+            "maia_rank": 1,
+            "maia_probability": 0.2841,
+            "maia_qualifies_threshold": true,
+            "actual_matches": false
+          }
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": false,
+          "summary": null,
+          "budget_rows": []
+        },
+        "realizability": {
+          "available": false,
+          "summary": null,
+          "candidates": []
+        }
+      }
+    }
+  ],
+  "data_path": "data/games/hMI5kmr4.json"
+}

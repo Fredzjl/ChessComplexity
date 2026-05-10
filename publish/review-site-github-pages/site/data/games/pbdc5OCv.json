@@ -1,0 +1,109 @@
+{
+  "game_id": "pbdc5OCv",
+  "game_index": 5,
+  "white": "valentinbusch55",
+  "black": "BUYUKDAG",
+  "white_elo": 916,
+  "black_elo": 959,
+  "result": "0-1",
+  "event": "Rated Rapid game",
+  "time_control": "600+0",
+  "opening": "French Defense: Franco-Sicilian Defense",
+  "eco": "C00",
+  "ply_count": 18,
+  "move_text": "1. d4 e6 2. e4 c5 3. Be3 cxd4 4. Bxd4 Nc6 5. e5 f6 6. exf6 Nxf6 7. Bxf6 Qxf6 8. Bb5 Bc5 9. Bf1 Qxf2#",
+  "stats": {
+    "eligible_positions": 1,
+    "high_complexity_positions": 0,
+    "failed_positions": 1,
+    "maia_high_engine_bad_positions": 0,
+    "engine_best_maia_reluctant_positions": 0,
+    "max_complexity_score": 0
+  },
+  "positions": [
+    {
+      "position_id": "pbdc5OCv_ply_18",
+      "label": "10W",
+      "game_id": "pbdc5OCv",
+      "ply_index": 18,
+      "fullmove_number": 10,
+      "side_to_move": "white",
+      "fen": "r1b1k2r/pp1p2pp/2n1p3/2b5/8/8/PPP2qPP/RN1QKBNR w KQkq - 0 10",
+      "board_image": "assets/boards/pbdc5OCv_ply_18.png",
+      "previous_move": {
+        "uci": "f6f2",
+        "san": "Qxf2#"
+      },
+      "actual_move": {
+        "available": false,
+        "detail": null,
+        "model_rank": null,
+        "model_probability": null,
+        "model_qualifies_threshold": null,
+        "engine_rank": null,
+        "engine_score_text": null
+      },
+      "actual_continuation": [],
+      "complexity": {
+        "score": null,
+        "high": false,
+        "threshold": 10,
+        "depth_breakdown": {
+          "depth_0": null,
+          "depth_1": null,
+          "depth_2": null
+        },
+        "queried_node_count": 0,
+        "inference_status": "failed_inference",
+        "error_type": "IndexError",
+        "error_message": "tensors used as indices must be long, int, byte or bool tensors"
+      },
+      "model": {
+        "available": false,
+        "win_prob": null,
+        "qualifying_moves": [],
+        "top_moves": [],
+        "tree_nodes_by_depth": {
+          "0": [],
+          "1": [],
+          "2": []
+        }
+      },
+      "engine": {
+        "available": true,
+        "moves": [],
+        "movetime_ms": 120,
+        "multipv": 20
+      },
+      "conflicts": {
+        "maia_high_engine_bad": {
+          "flagged": false,
+          "move_count": 0,
+          "moves": [],
+          "shallow_missing_count": 0,
+          "shallow_missing_moves": [],
+          "gap_threshold_cp": 300
+        },
+        "engine_best_maia_reluctant": {
+          "flagged": false,
+          "strong_threshold_cp": 300,
+          "reluctant_probability": 0.1,
+          "engine_best": null
+        }
+      },
+      "experiments": {
+        "time_budget": {
+          "available": false,
+          "summary": null,
+          "budget_rows": []
+        },
+        "realizability": {
+          "available": false,
+          "summary": null,
+          "candidates": []
+        }
+      }
+    }
+  ],
+  "data_path": "data/games/pbdc5OCv.json"
+}

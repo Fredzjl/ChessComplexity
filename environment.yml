@@ -1,0 +1,19 @@
+name: chess-complexity
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pyyaml
+  - pillow
+  - cairosvg
+  - pytest
+  - pip:
+      - maia2==0.9
+      - torch==2.11.0
+      - pandas==3.0.2
+      - numpy==2.4.4
+      - einops==0.8.2
+      - gdown==6.0.0
+      - pyzstd==0.19.1
+      - python-chess>=1.999

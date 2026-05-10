@@ -1,0 +1,23 @@
+experiment_name: first_full_test
+lichess:
+  game_count: 10
+  source_type: standard
+  download_dir: data/raw
+filters:
+  min_fullmove: 10
+  max_fullmove: 30
+  min_remaining_pieces_per_side: 8
+complexity:
+  min_move_probability: 0.10
+  expansion_plies: 3
+  high_complexity_threshold: 10
+models:
+  maia2:
+    enabled: true
+    device: auto
+    checkpoint: null
+  stockfish:
+    enabled: false
+    binary_path: null
+outputs:
+  root_dir: outputs/runs

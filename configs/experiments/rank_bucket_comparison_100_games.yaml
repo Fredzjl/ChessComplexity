@@ -1,0 +1,24 @@
+experiment_name: rank_bucket_comparison_100_games
+source_run_id: 20260509_balanced_100_games
+population:
+  min_player_elo: 1000
+  elo_bucket_width: 100
+position_sets:
+  include_all_eligible: true
+  include_high_complexity: true
+  complexity_threshold: 10
+models:
+  maia2:
+    enabled: true
+  stockfish:
+    enabled: true
+    binary_path: null
+    movetime_ms: 120
+    multipv: 20
+    threads_per_worker: 1
+    max_workers: auto
+    hash_mb: 128
+    refresh_cache: true
+outputs:
+  save_root: outputs/analyses
+  analysis_id: 20260510_rank_bucket_comparison_100_games

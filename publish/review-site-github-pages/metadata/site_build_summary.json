@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-10T21:08:15.171918+00:00",
+  "site_root": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site",
+  "entrypoint": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site/index.html",
+  "local_server_example": "python3 -m http.server 8765 -d /Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site",
+  "browse_url": "http://127.0.0.1:8765",
+  "position_count": 3279,
+  "game_count": 100,
+  "aggregate_stats": {
+    "timestamp_utc": "2026-05-09T19:29:38.777520+00:00",
+    "eligible_middlegame_count": 3279,
+    "successful_root_positions": 3238,
+    "failed_root_positions": 41,
+    "successful_scores": 3238,
+    "failed_scores": 41,
+    "high_complexity_count": 2679,
+    "min_probability": 0.1,
+    "expansion_plies": 3,
+    "high_complexity_threshold": 10,
+    "missing_image_count": 0,
+    "artifact_paths": {
+      "position_scores_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_07_complexity_scoring/complexity/position_scores.csv",
+      "high_complexity_positions_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_07_complexity_scoring/complexity/high_complexity_positions.csv",
+      "top_high_complexity_review_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/reviews/20260509_balanced_100_games/review/top_high_complexity_review.csv",
+      "per_game_examples_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/reviews/20260509_balanced_100_games/review/per_game_examples.csv",
+      "game_summary_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/reviews/20260509_balanced_100_games/review/game_summary.csv",
+      "review_shortlist_image_dir": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/reviews/20260509_balanced_100_games/review/shortlist_images",
+      "step_06_raw_policy_jsonl": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_06_policy_expansion/policy/raw_policy_snapshots.jsonl",
+      "step_06_topk_policy_csv": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_06_policy_expansion/policy/topk_policy_snapshots.csv"
+    },
+    "artifact_exists": {
+      "position_scores_csv": true,
+      "high_complexity_positions_csv": true,
+      "top_high_complexity_review_csv": true,
+      "per_game_examples_csv": true,
+      "game_summary_csv": true,
+      "review_shortlist_image_dir": true,
+      "step_06_raw_policy_jsonl": true,
+      "step_06_topk_policy_csv": true
+    },
+    "top_shortlist_count": 40,
+    "per_game_example_count": 285,
+    "games_with_high_complexity": 96,
+    "score_distribution": {
+      "min": 0,
+      "max": 79,
+      "mean": 20.5469,
+      "median": 19.0,
+      "q25": 12.0,
+      "q75": 27.0
+    },
+    "top_high_complexity_preview": [
+      {
+        "position_id": "KT3Ooz7O_ply_34",
+        "complexity_score": 79,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/KT3Ooz7O_ply_34.png"
+      },
+      {
+        "position_id": "KkAWuXpl_ply_42",
+        "complexity_score": 77,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/KkAWuXpl_ply_42.png"
+      },
+      {
+        "position_id": "j83hSepE_ply_50",
+        "complexity_score": 66,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/j83hSepE_ply_50.png"
+      },
+      {
+        "position_id": "KT3Ooz7O_ply_36",
+        "complexity_score": 65,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/KT3Ooz7O_ply_36.png"
+      },
+      {
+        "position_id": "j8z7XEws_ply_38",
+        "complexity_score": 65,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/j8z7XEws_ply_38.png"
+      },
+      {
+        "position_id": "Nxva2Kr3_ply_31",
+        "complexity_score": 64,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/Nxva2Kr3_ply_31.png"
+      },
+      {
+        "position_id": "j83hSepE_ply_22",
+        "complexity_score": 64,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/j83hSepE_ply_22.png"
+      },
+      {
+        "position_id": "rB9nsFce_ply_31",
+        "complexity_score": 63,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/rB9nsFce_ply_31.png"
+      },
+      {
+        "position_id": "V6hR1cp3_ply_44",
+        "complexity_score": 63,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/V6hR1cp3_ply_44.png"
+      },
+      {
+        "position_id": "4hP4UqNB_ply_39",
+        "complexity_score": 62,
+        "image_path": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/outputs/runs/20260509_balanced_100_games/step_04_parse_filter/images/4hP4UqNB_ply_39.png"
+      }
+    ],
+    "high_complexity_position_count": 2679,
+    "maia_actual_move_rank_mean": 2.9527,
+    "maia_actual_move_rank_coverage": 2663,
+    "stockfish_actual_move_rank_mean": 4.4904,
+    "stockfish_actual_move_rank_coverage": 2504,
+    "maia_high_engine_bad_position_count": 138,
+    "maia_high_engine_bad_move_count": 162,
+    "engine_best_maia_reluctant_position_count": 195,
+    "conflict_thresholds": {
+      "maia_engine_gap_threshold_cp": 300,
+      "engine_strong_threshold_cp": 300,
+      "maia_reluctant_probability": 0.1
+    }
+  },
+  "stockfish_cache_refreshed": false,
+  "data_mode": "split_games",
+  "site_files": {
+    "summary": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site/data/summary.json",
+    "experiments": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site/data/experiments.json",
+    "games_manifest": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site/data/games_manifest.json",
+    "games_dir": "/Users/jialinzhang/Documents/Chess/Complexity_Idea/chess-complexity-full-test/publish/review-site-github-pages/site/data/games"
+  },
+  "board_assets_mode": "copied"
+}

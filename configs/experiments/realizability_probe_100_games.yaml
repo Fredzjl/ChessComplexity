@@ -1,0 +1,62 @@
+experiment_name: realizability_probe
+source_run_id: 20260509_balanced_100_games
+candidate_selection:
+  complex_only: true
+  complexity_threshold: 10
+  near_best_window_cp: 80
+  absolute_advantage_floor_cp: 150
+  min_incremental_gain_cp: 80
+  top_k_root_candidates: 3
+  max_positions:
+engine_analysis:
+  binary_path:
+  threads_per_worker: 1
+  max_workers: auto
+  hash_mb: 96
+  root_movetime_ms: 120
+  node_movetime_ms: 80
+  root_multipv: 6
+  node_multipv: 4
+  horizon_plies: 4
+acceptable_line:
+  retain_gain_ratio: 0.70
+  absolute_floor_cp: 80
+  max_total_drop_cp: 120
+  local_slack_cp: 80
+features:
+  compute_initial_gain_cp: true
+  compute_distance_from_best_cp: true
+  compute_acceptable_width_player_d1: true
+  compute_acceptable_width_player_mean: true
+  compute_acceptable_width_player_min: true
+  compute_acceptable_width_d3: true
+  compute_survival_rate_after_opponent: true
+  compute_opponent_refutation_density: true
+  compute_unique_burden_plies: true
+  compute_longest_narrow_streak: true
+  compute_deviation_penalty_cp_mean: true
+  compute_deviation_penalty_cp_max: true
+  compute_mean_margin_to_viable_cp: true
+  compute_conversion_horizon_plies: true
+  compute_conversion_success_within_horizon: true
+scalar_score:
+  enabled: true
+  width_target: 4
+  slack_target_cp: 120
+  burden_cap_plies: 4
+  penalty_cap_cp: 200
+  weight_width: 0.28
+  weight_survival: 0.22
+  weight_slack: 0.12
+  weight_non_unique: 0.18
+  weight_non_fragile: 0.15
+  weight_fast_conversion: 0.05
+analysis:
+  min_player_elo_bucketed: 1000
+  elo_bucket_width: 100
+  compare_with_maia_probability: true
+  compare_with_human_actual_move: true
+  stratify_by_elo_bucket: true
+outputs:
+  save_root: outputs/analyses
+  analysis_id: 20260510_realizability_probe_100_games

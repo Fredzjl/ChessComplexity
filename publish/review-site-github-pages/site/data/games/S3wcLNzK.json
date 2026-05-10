@@ -1,0 +1,25 @@
+{
+  "game_id": "S3wcLNzK",
+  "game_index": 28,
+  "white": "JFSB2025",
+  "black": "Salomonrtiz",
+  "white_elo": 1330,
+  "black_elo": 1450,
+  "result": "1-0",
+  "event": "Rated Blitz tournament https://lichess.org/tournament/3eRW36ta",
+  "time_control": "180+2",
+  "opening": "King's Pawn Game",
+  "eco": "B00",
+  "ply_count": 1,
+  "move_text": "1. e4",
+  "stats": {
+    "eligible_positions": 0,
+    "high_complexity_positions": 0,
+    "failed_positions": 0,
+    "maia_high_engine_bad_positions": 0,
+    "engine_best_maia_reluctant_positions": 0,
+    "max_complexity_score": 0
+  },
+  "positions": [],
+  "data_path": "data/games/S3wcLNzK.json"
+}

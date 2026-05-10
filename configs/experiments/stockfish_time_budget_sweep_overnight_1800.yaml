@@ -1,0 +1,22 @@
+experiment_name: stockfish_time_budget_sweep_overnight
+selection:
+  complex_only: true
+  selection_mode: global_top_complexity
+  game_id:
+  max_positions: 1800
+stockfish:
+  binary_path:
+  threads_per_worker: 1
+  hash_mb: 128
+  multipv: 10
+  max_workers: 9
+  time_budgets_ms:
+    - 50
+    - 200
+    - 1000
+    - 5000
+    - 15000
+    - 60000
+outputs:
+  save_root: outputs/analyses
+  analysis_id: 20260510_stockfish_time_budget_overnight_1800

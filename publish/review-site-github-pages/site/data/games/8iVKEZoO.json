@@ -1,0 +1,25 @@
+{
+  "game_id": "8iVKEZoO",
+  "game_index": 16,
+  "white": "hanaasemsem",
+  "black": "michiganfolks",
+  "white_elo": 1152,
+  "black_elo": 1259,
+  "result": "0-1",
+  "event": "Rated Rapid game",
+  "time_control": "900+10",
+  "opening": "Indian Defense: London System",
+  "eco": "A46",
+  "ply_count": 12,
+  "move_text": "1. d4 Nf6 2. Bf4 e6 3. Nf3 Nc6 4. e3 d5 5. Nbd2 a6 6. c3 Bd6",
+  "stats": {
+    "eligible_positions": 0,
+    "high_complexity_positions": 0,
+    "failed_positions": 0,
+    "maia_high_engine_bad_positions": 0,
+    "engine_best_maia_reluctant_positions": 0,
+    "max_complexity_score": 0
+  },
+  "positions": [],
+  "data_path": "data/games/8iVKEZoO.json"
+}

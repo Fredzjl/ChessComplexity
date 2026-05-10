@@ -1,0 +1,26 @@
+experiment_name: balanced_100_games
+lichess:
+  source_url: https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst
+  game_count: 100
+  candidate_games: 1200
+  sampling_mode: avg_elo_spread
+  initial_bytes: 33554432
+  max_bytes: 536870912
+filters:
+  min_fullmove: 10
+  max_fullmove: 30
+  min_remaining_pieces_per_side: 8
+complexity:
+  min_move_probability: 0.10
+  expansion_plies: 3
+  high_complexity_threshold: 10
+models:
+  maia2:
+    enabled: true
+    device: auto
+    checkpoint: null
+  stockfish:
+    enabled: true
+    binary_path: null
+outputs:
+  root_dir: outputs/runs

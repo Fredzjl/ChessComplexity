@@ -1,0 +1,5 @@
+complexity_bucket,position_count,mean_complexity_score,mean_best_move_switch_count,switch_rate_ge_1,switch_rate_ge_2,mean_unique_best_move_count,mean_best_score_range_cp,mean_adjacent_top3_overlap,mean_pv_prefix_plies
+10-19,252,18.3452,1.2897,0.5595,0.4048,1.8651,68.3,0.7284,2.2452
+20-29,891,24.119,1.5589,0.6453,0.4725,2.0303,61.2413,0.7108,2.0438
+30-39,442,33.819,1.6131,0.6742,0.4842,2.0769,63.1633,0.6857,1.9367
+40+,215,46.9953,1.7395,0.7256,0.5256,2.214,54.3505,0.6705,1.7656
